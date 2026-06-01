@@ -59,7 +59,7 @@ export default function Landing() {
           </div>
           <div className="flex gap-4">
              <div className="hidden md:flex items-center gap-6 text-sm font-semibold text-muted">
-                 <span>{stats.trials.toLocaleString()}+ Indexed Trials</span>
+                 <span>{stats.trials.toLocaleString()} Indexed Trials</span>
                  <span>{stats.distinct} Indications</span>
              </div>
           </div>
