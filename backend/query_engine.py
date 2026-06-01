@@ -37,6 +37,9 @@ SPONSOR_CLASS_LABELS = {
     "UNKNOWN":   "Unknown",
 }
 
+FILTER_COLS = ["nct_id", "phase_buckets", "lead_sponsor_class", "study_type", "overall_status", "line_of_therapy", "is_combination", "countries", "first_posted_date"]
+
+
 
 class QueryEngine:
     def __init__(self, loader: DataLoader):
@@ -45,8 +48,8 @@ class QueryEngine:
     # ── summary KPIs ────────────────────────────────────────────────────────
 
     def summary(self, cancer: str, filters: dict | None = None) -> dict:
-        df = self.loader.get_cancer_df(cancer)
-        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer))
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS + ["enrollment_count"])
+        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer, columns=["nct_id", "drug_name", "phase_bucket"]))
         df, df_dp = self.apply_filters(df, df_dp, filters)
         interventional = df[df["study_type"] == "INTERVENTIONAL"]
         return {
@@ -60,8 +63,8 @@ class QueryEngine:
     # ── phase funnel ─────────────────────────────────────────────────────────
 
     def funnel(self, cancer: str, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
-        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer))
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS + ["enrollment_count"])
+        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer, columns=["nct_id", "drug_name", "phase_bucket"]))
         df, df_dp = self.apply_filters(df, df_dp, filters)
 
         rows = []
@@ -94,8 +97,8 @@ class QueryEngine:
     # ── drug intelligence table ───────────────────────────────────────────────
 
     def top_drugs(self, cancer: str, top_n: int = 15, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
-        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer))
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS + ["enrollment_count"])
+        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer, columns=["nct_id", "drug_name", "phase_bucket"]))
         df, df_dp = self.apply_filters(df, df_dp, filters)
 
         if df_dp is None or df_dp.empty:
@@ -132,7 +135,7 @@ class QueryEngine:
     # ── sponsor analysis (per phase) ──────────────────────────────────────────
 
     def sponsor_by_phase(self, cancer: str, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS)
         df, _ = self.apply_filters(df, None, filters)
         if df.empty:
             return []
@@ -151,7 +154,7 @@ class QueryEngine:
     # ── geography ─────────────────────────────────────────────────────────────
 
     def geography(self, cancer: str, top_n: int = 30, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS)
         df, _ = self.apply_filters(df, None, filters)
         if df.empty:
             return []
@@ -166,7 +169,7 @@ class QueryEngine:
     # ── biomarkers / mutations ────────────────────────────────────────────────
 
     def biomarkers(self, cancer: str, top_n: int = 12, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS + ["biomarkers_all", "mutations_all"])
         df, _ = self.apply_filters(df, None, filters)
         col = "biomarkers_all" if "biomarkers_all" in df.columns else None
         mut_col = "mutations_all" if "mutations_all" in df.columns else None
@@ -189,7 +192,7 @@ class QueryEngine:
     # ── trial status distribution ─────────────────────────────────────────────
 
     def status_distribution(self, cancer: str, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS)
         df, _ = self.apply_filters(df, None, filters)
         df = df[~df['overall_status'].fillna('').str.contains('Unknown', case=False)]
         if df.empty:
@@ -213,7 +216,7 @@ class QueryEngine:
     # ── timeline (new trials per year) ────────────────────────────────────────
 
     def timeline(self, cancer: str, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS)
         df, _ = self.apply_filters(df, None, filters)
         if df.empty or "first_posted_date" not in df.columns:
             return []
@@ -333,7 +336,7 @@ class QueryEngine:
     # ── biomarker × phase heatmap ─────────────────────────────────────────────
 
     def biomarker_by_phase(self, cancer: str, top_n: int = 10, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS + ["biomarkers_all", "mutations_all"])
         df, _ = self.apply_filters(df, None, filters)
         if df.empty:
             return []
@@ -370,8 +373,8 @@ class QueryEngine:
     # ── drug landscape (bubble scatter) ───────────────────────────────────────
 
     def drug_landscape(self, cancer: str, top_n: int = 20, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
-        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer))
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS + ["enrollment_count"])
+        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer, columns=["nct_id", "drug_name", "phase_bucket"]))
         df, df_dp = self.apply_filters(df, df_dp, filters)
         
         if df_dp is None or df_dp.empty:
@@ -402,7 +405,7 @@ class QueryEngine:
     # ── status × phase heatmap ────────────────────────────────────────────────
 
     def status_by_phase(self, cancer: str, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS)
         df, _ = self.apply_filters(df, None, filters)
         if df.empty:
             return []
@@ -418,7 +421,7 @@ class QueryEngine:
         return rows
 
     def top_sponsors_detailed(self, cancer: str, top_n: int = 15, filters: dict | None = None) -> list[dict]:
-        df = self.loader.get_cancer_df(cancer)
+        df = self.loader.get_cancer_df(cancer, columns=FILTER_COLS + ["collaborators"])
         df, _ = self.apply_filters(df, None, filters)
         if df.empty or "collaborators" not in df.columns:
             return []
@@ -437,7 +440,7 @@ class QueryEngine:
         if not _is_valid_asset_name(drug_name):
             return {"partners": [], "interconnections": [], "bipartite": {"nodes": [], "links": []}, "upset": []}
 
-        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer))
+        df_dp = _valid_drug_phase(self.loader.get_cancer_drug_phase(cancer, columns=["nct_id", "drug_name", "phase_bucket"]))
         if df_dp.empty:
             return {"partners": [], "interconnections": [], "bipartite": {"nodes": [], "links": []}, "upset": []}
 
