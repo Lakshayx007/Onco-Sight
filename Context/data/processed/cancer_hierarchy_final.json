@@ -1,0 +1,6513 @@
+{
+  "Breast Cancer": {
+    "trial_count": 8693,
+    "subtypes": [
+      {
+        "condition": "Metastatic Breast Cancer",
+        "trial_count": 899
+      },
+      {
+        "condition": "Triple Negative Breast Cancer",
+        "trial_count": 442
+      },
+      {
+        "condition": "Breast Cancer Female",
+        "trial_count": 391
+      },
+      {
+        "condition": "Her2-Positive Breast Cancer",
+        "trial_count": 296
+      },
+      {
+        "condition": "Advanced Breast Cancer",
+        "trial_count": 232
+      },
+      {
+        "condition": "Stage Iv Breast Cancer",
+        "trial_count": 202
+      },
+      {
+        "condition": "Anatomic Stage Iii Breast Cancer Ajcc V8",
+        "trial_count": 153
+      },
+      {
+        "condition": "Stage Iiia Breast Cancer",
+        "trial_count": 148
+      },
+      {
+        "condition": "Stage Iiib Breast Cancer",
+        "trial_count": 144
+      },
+      {
+        "condition": "Recurrent Breast Cancer",
+        "trial_count": 139
+      },
+      {
+        "condition": "Her2-Negative Breast Cancer",
+        "trial_count": 138
+      },
+      {
+        "condition": "Stage Iiic Breast Cancer",
+        "trial_count": 136
+      },
+      {
+        "condition": "Anatomic Stage Iv Breast Cancer Ajcc V8",
+        "trial_count": 132
+      },
+      {
+        "condition": "Anatomic Stage Ii Breast Cancer Ajcc V8",
+        "trial_count": 128
+      },
+      {
+        "condition": "Stage Ii Breast Cancer",
+        "trial_count": 120
+      },
+      {
+        "condition": "Anatomic Stage I Breast Cancer Ajcc V8",
+        "trial_count": 114
+      },
+      {
+        "condition": "Breast Cancer Metastatic",
+        "trial_count": 93
+      },
+      {
+        "condition": "Anatomic Stage Iiia Breast Cancer Ajcc V8",
+        "trial_count": 85
+      },
+      {
+        "condition": "Triple-Negative Breast Cancer",
+        "trial_count": 82
+      },
+      {
+        "condition": "Invasive Breast Cancer",
+        "trial_count": 81
+      },
+      {
+        "condition": "Male Breast Cancer",
+        "trial_count": 80
+      },
+      {
+        "condition": "Prognostic Stage Iiia Breast Cancer Ajcc V8",
+        "trial_count": 78
+      },
+      {
+        "condition": "Stage Ib Breast Cancer",
+        "trial_count": 73
+      },
+      {
+        "condition": "Anatomic Stage Iiib Breast Cancer Ajcc V8",
+        "trial_count": 73
+      },
+      {
+        "condition": "Stage Ia Breast Cancer",
+        "trial_count": 73
+      },
+      {
+        "condition": "Prognostic Stage Iiib Breast Cancer Ajcc V8",
+        "trial_count": 73
+      },
+      {
+        "condition": "Prognostic Stage Iiic Breast Cancer Ajcc V8",
+        "trial_count": 72
+      },
+      {
+        "condition": "Prognostic Stage Iii Breast Cancer Ajcc V8",
+        "trial_count": 72
+      },
+      {
+        "condition": "Anatomic Stage Iiic Breast Cancer Ajcc V8",
+        "trial_count": 71
+      },
+      {
+        "condition": "Anatomic Stage Iia Breast Cancer Ajcc V8",
+        "trial_count": 69
+      }
+    ]
+  },
+  "Prostate Cancer": {
+    "trial_count": 4388,
+    "subtypes": [
+      {
+        "condition": "Metastatic Prostate Cancer",
+        "trial_count": 166
+      },
+      {
+        "condition": "Metastatic Castration-Resistant Prostate Cancer",
+        "trial_count": 156
+      },
+      {
+        "condition": "Prostate Cancer Metastatic",
+        "trial_count": 121
+      },
+      {
+        "condition": "Recurrent Prostate Cancer",
+        "trial_count": 117
+      },
+      {
+        "condition": "Stage Iv Prostate Cancer",
+        "trial_count": 109
+      },
+      {
+        "condition": "Castration-Resistant Prostate Cancer",
+        "trial_count": 91
+      },
+      {
+        "condition": "Stage Ivb Prostate Cancer Ajcc V8",
+        "trial_count": 79
+      },
+      {
+        "condition": "Prostate Cancer (Adenocarcinoma)",
+        "trial_count": 68
+      },
+      {
+        "condition": "Stage Iv Prostate Cancer Ajcc V8",
+        "trial_count": 58
+      },
+      {
+        "condition": "Stage Iii Prostate Cancer",
+        "trial_count": 55
+      },
+      {
+        "condition": "Stage Iii Prostate Cancer Ajcc V8",
+        "trial_count": 54
+      },
+      {
+        "condition": "Stage Iva Prostate Cancer Ajcc V8",
+        "trial_count": 50
+      },
+      {
+        "condition": "Stage I Prostate Cancer",
+        "trial_count": 50
+      },
+      {
+        "condition": "Prostate Cancer Recurrent",
+        "trial_count": 46
+      },
+      {
+        "condition": "Metastatic Castration Resistant Prostate Cancer",
+        "trial_count": 45
+      },
+      {
+        "condition": "Stage Iib Prostate Cancer",
+        "trial_count": 44
+      },
+      {
+        "condition": "Stage Iia Prostate Cancer",
+        "trial_count": 40
+      },
+      {
+        "condition": "Advanced Prostate Cancer",
+        "trial_count": 39
+      },
+      {
+        "condition": "Stage Ii Prostate Cancer Ajcc V8",
+        "trial_count": 37
+      },
+      {
+        "condition": "Hormone Refractory Prostate Cancer",
+        "trial_count": 34
+      },
+      {
+        "condition": "Stage I Prostate Cancer Ajcc V8",
+        "trial_count": 33
+      },
+      {
+        "condition": "Prostate Cancer (Diagnosis)",
+        "trial_count": 31
+      },
+      {
+        "condition": "Stage Iiic Prostate Cancer Ajcc V8",
+        "trial_count": 30
+      },
+      {
+        "condition": "Hormone-Resistant Prostate Cancer",
+        "trial_count": 29
+      },
+      {
+        "condition": "Stage Iiib Prostate Cancer Ajcc V8",
+        "trial_count": 29
+      },
+      {
+        "condition": "Stage Iiia Prostate Cancer Ajcc V8",
+        "trial_count": 28
+      },
+      {
+        "condition": "Castrate Resistant Prostate Cancer",
+        "trial_count": 27
+      },
+      {
+        "condition": "Stage Iic Prostate Cancer Ajcc V8",
+        "trial_count": 27
+      },
+      {
+        "condition": "Localized Prostate Cancer",
+        "trial_count": 27
+      },
+      {
+        "condition": "Stage Iib Prostate Cancer Ajcc V8",
+        "trial_count": 24
+      }
+    ]
+  },
+  "Colorectal Cancer": {
+    "trial_count": 3421,
+    "subtypes": [
+      {
+        "condition": "Metastatic Colorectal Cancer",
+        "trial_count": 603
+      },
+      {
+        "condition": "Colorectal Cancer Metastatic",
+        "trial_count": 208
+      },
+      {
+        "condition": "Colorectal Cancer (Crc)",
+        "trial_count": 98
+      },
+      {
+        "condition": "Colorectal Cancer Screening",
+        "trial_count": 91
+      },
+      {
+        "condition": "Advanced Colorectal Cancer",
+        "trial_count": 69
+      },
+      {
+        "condition": "Stage Iv Colorectal Cancer Ajcc V8",
+        "trial_count": 67
+      },
+      {
+        "condition": "Stage Iii Colorectal Cancer Ajcc V8",
+        "trial_count": 49
+      },
+      {
+        "condition": "Stage Iva Colorectal Cancer Ajcc V8",
+        "trial_count": 38
+      },
+      {
+        "condition": "Stage Ivb Colorectal Cancer Ajcc V8",
+        "trial_count": 38
+      },
+      {
+        "condition": "Stage Ivc Colorectal Cancer Ajcc V8",
+        "trial_count": 38
+      },
+      {
+        "condition": "Colorectal Cancer Stage Iv",
+        "trial_count": 30
+      },
+      {
+        "condition": "Metastatic Colorectal Cancer (Crc)",
+        "trial_count": 30
+      },
+      {
+        "condition": "Stage Iiic Colorectal Cancer Ajcc V8",
+        "trial_count": 26
+      },
+      {
+        "condition": "Crc (Colorectal Cancer)",
+        "trial_count": 26
+      },
+      {
+        "condition": "Colorectal Cancer Stage Iii",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iiia Colorectal Cancer Ajcc V8",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iv Colorectal Cancer",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iiib Colorectal Cancer Ajcc V8",
+        "trial_count": 25
+      },
+      {
+        "condition": "Metastatic Colorectal Cancer (Mcrc)",
+        "trial_count": 23
+      },
+      {
+        "condition": "Stage Ii Colorectal Cancer Ajcc V8",
+        "trial_count": 21
+      },
+      {
+        "condition": "Stage Ivb Colorectal Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Iva Colorectal Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Iv Colorectal Cancer Ajcc V7",
+        "trial_count": 19
+      },
+      {
+        "condition": "Colorectal Cancer Stage Ii",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iva Colorectal Cancer Ajcc V7",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Ivb Colorectal Cancer Ajcc V7",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iii Colorectal Cancer",
+        "trial_count": 18
+      },
+      {
+        "condition": "Colorectal Cancer (Diagnosis)",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage I Colorectal Cancer Ajcc V8",
+        "trial_count": 17
+      },
+      {
+        "condition": "Colorectal Cancer Recurrent",
+        "trial_count": 16
+      }
+    ]
+  },
+  "Lung Cancer": {
+    "trial_count": 3070,
+    "subtypes": [
+      {
+        "condition": "Non-Small Cell Lung Cancer",
+        "trial_count": 1153
+      },
+      {
+        "condition": "Small Cell Lung Cancer",
+        "trial_count": 379
+      },
+      {
+        "condition": "Stage Iv Lung Cancer Ajcc V8",
+        "trial_count": 151
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer (Nsclc)",
+        "trial_count": 139
+      },
+      {
+        "condition": "Stage Iv Non-Small Cell Lung Cancer",
+        "trial_count": 115
+      },
+      {
+        "condition": "Small-Cell Lung Cancer",
+        "trial_count": 109
+      },
+      {
+        "condition": "Lung Cancer (Nsclc)",
+        "trial_count": 93
+      },
+      {
+        "condition": "Recurrent Non-Small Cell Lung Cancer",
+        "trial_count": 88
+      },
+      {
+        "condition": "Stage Iii Lung Cancer Ajcc V8",
+        "trial_count": 87
+      },
+      {
+        "condition": "Stage Iva Lung Cancer Ajcc V8",
+        "trial_count": 81
+      },
+      {
+        "condition": "Stage Ivb Lung Cancer Ajcc V8",
+        "trial_count": 81
+      },
+      {
+        "condition": "Stage Iiib Non-Small Cell Lung Cancer",
+        "trial_count": 79
+      },
+      {
+        "condition": "Non-Small-Cell Lung Cancer",
+        "trial_count": 78
+      },
+      {
+        "condition": "Stage Iiib Lung Cancer Ajcc V8",
+        "trial_count": 73
+      },
+      {
+        "condition": "Stage Iiia Lung Cancer Ajcc V8",
+        "trial_count": 67
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Metastatic",
+        "trial_count": 66
+      },
+      {
+        "condition": "Non-Squamous Non-Small Cell Lung Cancer",
+        "trial_count": 58
+      },
+      {
+        "condition": "Stage Iiic Lung Cancer Ajcc V8",
+        "trial_count": 58
+      },
+      {
+        "condition": "Nonsmall Cell Lung Cancer",
+        "trial_count": 57
+      },
+      {
+        "condition": "Squamous Cell Lung Cancer",
+        "trial_count": 56
+      },
+      {
+        "condition": "Lung Cancer, Nonsmall Cell",
+        "trial_count": 55
+      },
+      {
+        "condition": "Lung Cancer (Diagnosis)",
+        "trial_count": 55
+      },
+      {
+        "condition": "Non Small Cell Lung Cancer Metastatic",
+        "trial_count": 54
+      },
+      {
+        "condition": "Extensive Stage Small Cell Lung Cancer",
+        "trial_count": 49
+      },
+      {
+        "condition": "Stage Iiia Non-Small Cell Lung Cancer",
+        "trial_count": 49
+      },
+      {
+        "condition": "Advanced Lung Cancer",
+        "trial_count": 49
+      },
+      {
+        "condition": "Advanced Non-Small Cell Lung Cancer",
+        "trial_count": 48
+      },
+      {
+        "condition": "Metastatic Lung Cancer",
+        "trial_count": 48
+      },
+      {
+        "condition": "Nsclc (Advanced Non-Small Cell Lung Cancer)",
+        "trial_count": 46
+      },
+      {
+        "condition": "Nsclc (Non-Small Cell Lung Cancer)",
+        "trial_count": 46
+      }
+    ]
+  },
+  "Multiple Myeloma": {
+    "trial_count": 2321,
+    "subtypes": [
+      {
+        "condition": "Multiple Myeloma And Plasma Cell Neoplasm",
+        "trial_count": 295
+      },
+      {
+        "condition": "Refractory Multiple Myeloma",
+        "trial_count": 193
+      },
+      {
+        "condition": "Multiple Myeloma In Relapse",
+        "trial_count": 73
+      },
+      {
+        "condition": "Relapsed/Refractory Multiple Myeloma",
+        "trial_count": 71
+      },
+      {
+        "condition": "Stage Iii Multiple Myeloma",
+        "trial_count": 65
+      },
+      {
+        "condition": "Relapsed Or Refractory Multiple Myeloma",
+        "trial_count": 64
+      },
+      {
+        "condition": "Stage Ii Multiple Myeloma",
+        "trial_count": 59
+      },
+      {
+        "condition": "Multiple Myeloma (Mm)",
+        "trial_count": 55
+      },
+      {
+        "condition": "Smoldering Multiple Myeloma",
+        "trial_count": 50
+      },
+      {
+        "condition": "Stage I Multiple Myeloma",
+        "trial_count": 47
+      },
+      {
+        "condition": "Multiple Myeloma, Refractory",
+        "trial_count": 34
+      },
+      {
+        "condition": "Relapsed Multiple Myeloma",
+        "trial_count": 31
+      },
+      {
+        "condition": "Recurrent Multiple Myeloma",
+        "trial_count": 28
+      },
+      {
+        "condition": "Relapse Multiple Myeloma",
+        "trial_count": 24
+      },
+      {
+        "condition": "Relapsed And Refractory Multiple Myeloma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Newly Diagnosed Multiple Myeloma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Multiple Myeloma, Newly Diagnosed",
+        "trial_count": 8
+      },
+      {
+        "condition": "Multiple Myeloma Progression",
+        "trial_count": 8
+      },
+      {
+        "condition": "Relapsed Refractory Multiple Myeloma (Rrmm)",
+        "trial_count": 8
+      },
+      {
+        "condition": "Relapsed Or Refractory Multiple Myeloma (Rrmm)",
+        "trial_count": 8
+      },
+      {
+        "condition": "Relapsed Refractory Multiple Myeloma",
+        "trial_count": 8
+      },
+      {
+        "condition": "Multiple Myeloma And Malignant Plasma Cell Neoplasms",
+        "trial_count": 8
+      },
+      {
+        "condition": "Relapsed/Refractory Multiple Myeloma (Rrmm)",
+        "trial_count": 7
+      },
+      {
+        "condition": "Relapse/Refractory Multiple Myeloma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Multiple Myeloma, Neoplasms",
+        "trial_count": 6
+      },
+      {
+        "condition": "Multiple Myeloma (Mm), Lymphoma, Large B-Cell, Diffuse (Dlbcl), Lymphoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Smoldering Multiple Myeloma (Smm)",
+        "trial_count": 6
+      },
+      {
+        "condition": "Cancer (Colon Cancer, Breast Cancer, Lymphoma, Chronic Lymphoma Leukemia, Multiple Myeloma)",
+        "trial_count": 6
+      },
+      {
+        "condition": "Refractory Or Relapsed Multiple Myeloma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Multiple Myeloma Refractory",
+        "trial_count": 5
+      }
+    ]
+  },
+  "Lymphoma": {
+    "trial_count": 2040,
+    "subtypes": [
+      {
+        "condition": "Follicular Lymphoma",
+        "trial_count": 340
+      },
+      {
+        "condition": "Mantle Cell Lymphoma",
+        "trial_count": 333
+      },
+      {
+        "condition": "Non-Hodgkin'S Lymphoma",
+        "trial_count": 324
+      },
+      {
+        "condition": "Hodgkin Lymphoma",
+        "trial_count": 308
+      },
+      {
+        "condition": "Lymphoma, Non-Hodgkin",
+        "trial_count": 306
+      },
+      {
+        "condition": "Diffuse Large B Cell Lymphoma",
+        "trial_count": 269
+      },
+      {
+        "condition": "Non-Hodgkin Lymphoma",
+        "trial_count": 229
+      },
+      {
+        "condition": "Small Lymphocytic Lymphoma",
+        "trial_count": 216
+      },
+      {
+        "condition": "Recurrent Mantle Cell Lymphoma",
+        "trial_count": 197
+      },
+      {
+        "condition": "Recurrent Small Lymphocytic Lymphoma",
+        "trial_count": 172
+      },
+      {
+        "condition": "Diffuse Large B-Cell Lymphoma",
+        "trial_count": 161
+      },
+      {
+        "condition": "Non Hodgkin Lymphoma",
+        "trial_count": 155
+      },
+      {
+        "condition": "Recurrent Grade 1 Follicular Lymphoma",
+        "trial_count": 152
+      },
+      {
+        "condition": "Recurrent Grade 2 Follicular Lymphoma",
+        "trial_count": 152
+      },
+      {
+        "condition": "Marginal Zone Lymphoma",
+        "trial_count": 146
+      },
+      {
+        "condition": "Recurrent Marginal Zone Lymphoma",
+        "trial_count": 141
+      },
+      {
+        "condition": "Lymphoma, B-Cell",
+        "trial_count": 132
+      },
+      {
+        "condition": "Recurrent Grade 3 Follicular Lymphoma",
+        "trial_count": 132
+      },
+      {
+        "condition": "Recurrent Adult Diffuse Large Cell Lymphoma",
+        "trial_count": 131
+      },
+      {
+        "condition": "Splenic Marginal Zone Lymphoma",
+        "trial_count": 128
+      },
+      {
+        "condition": "Nodal Marginal Zone B-Cell Lymphoma",
+        "trial_count": 113
+      },
+      {
+        "condition": "Extranodal Marginal Zone B-Cell Lymphoma Of Mucosa-Associated Lymphoid Tissue",
+        "trial_count": 111
+      },
+      {
+        "condition": "Anaplastic Large Cell Lymphoma",
+        "trial_count": 110
+      },
+      {
+        "condition": "Peripheral T-Cell Lymphoma",
+        "trial_count": 109
+      },
+      {
+        "condition": "Recurrent Adult Burkitt Lymphoma",
+        "trial_count": 103
+      },
+      {
+        "condition": "Lymphoma, Large B-Cell, Diffuse",
+        "trial_count": 102
+      },
+      {
+        "condition": "Hodgkin'S Lymphoma",
+        "trial_count": 101
+      },
+      {
+        "condition": "Recurrent Adult Lymphoblastic Lymphoma",
+        "trial_count": 98
+      },
+      {
+        "condition": "Angioimmunoblastic T-Cell Lymphoma",
+        "trial_count": 96
+      },
+      {
+        "condition": "Recurrent Adult Diffuse Small Cleaved Cell Lymphoma",
+        "trial_count": 95
+      }
+    ]
+  },
+  "Ovarian Cancer": {
+    "trial_count": 2028,
+    "subtypes": [
+      {
+        "condition": "Epithelial Ovarian Cancer",
+        "trial_count": 217
+      },
+      {
+        "condition": "Stage Iv Ovarian Cancer",
+        "trial_count": 53
+      },
+      {
+        "condition": "Recurrent Ovarian Cancer",
+        "trial_count": 44
+      },
+      {
+        "condition": "Platinum-Resistant Ovarian Cancer",
+        "trial_count": 41
+      },
+      {
+        "condition": "Stage Iv Ovarian Cancer Ajcc V8",
+        "trial_count": 39
+      },
+      {
+        "condition": "Stage Iii Ovarian Cancer Ajcc V8",
+        "trial_count": 31
+      },
+      {
+        "condition": "Stage Iii Ovarian Cancer",
+        "trial_count": 29
+      },
+      {
+        "condition": "Advanced Ovarian Cancer",
+        "trial_count": 27
+      },
+      {
+        "condition": "Ovarian Cancer Stage Iv",
+        "trial_count": 27
+      },
+      {
+        "condition": "Stage Iiic Ovarian Cancer",
+        "trial_count": 26
+      },
+      {
+        "condition": "Ovarian Cancer Recurrent",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iiia Ovarian Cancer",
+        "trial_count": 23
+      },
+      {
+        "condition": "Stage Iiib Ovarian Cancer",
+        "trial_count": 23
+      },
+      {
+        "condition": "Stage Iv Ovarian Cancer Ajcc V6 And V7",
+        "trial_count": 22
+      },
+      {
+        "condition": "Hereditary Breast And Ovarian Cancer Syndrome",
+        "trial_count": 22
+      },
+      {
+        "condition": "Stage Iva Ovarian Cancer Ajcc V8",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Ivb Ovarian Cancer Ajcc V8",
+        "trial_count": 19
+      },
+      {
+        "condition": "Hereditary Breast And Ovarian Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Iiic Ovarian Cancer Ajcc V8",
+        "trial_count": 17
+      },
+      {
+        "condition": "Stage Iiia Ovarian Cancer Ajcc V6 And V7",
+        "trial_count": 16
+      },
+      {
+        "condition": "Stage Iiib Ovarian Cancer Ajcc V6 And V7",
+        "trial_count": 16
+      },
+      {
+        "condition": "Stage Iiic Ovarian Cancer Ajcc V6 And V7",
+        "trial_count": 16
+      },
+      {
+        "condition": "Stage Iiib Ovarian Cancer Ajcc V8",
+        "trial_count": 15
+      },
+      {
+        "condition": "Stage Iiia Ovarian Cancer Ajcc V8",
+        "trial_count": 15
+      },
+      {
+        "condition": "Ovarian Cancer Stage Iii",
+        "trial_count": 13
+      },
+      {
+        "condition": "Stage Iii Ovarian Cancer Ajcc V6 And V7",
+        "trial_count": 13
+      },
+      {
+        "condition": "High Grade Serous Ovarian Cancer",
+        "trial_count": 13
+      },
+      {
+        "condition": "Metastatic Ovarian Cancer",
+        "trial_count": 12
+      },
+      {
+        "condition": "Platinum Resistant Ovarian Cancer",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage Iiia1 Ovarian Cancer Ajcc V8",
+        "trial_count": 12
+      }
+    ]
+  },
+  "Pancreatic Cancer": {
+    "trial_count": 1901,
+    "subtypes": [
+      {
+        "condition": "Metastatic Pancreatic Cancer",
+        "trial_count": 195
+      },
+      {
+        "condition": "Stage Iv Pancreatic Cancer",
+        "trial_count": 89
+      },
+      {
+        "condition": "Stage Iii Pancreatic Cancer",
+        "trial_count": 73
+      },
+      {
+        "condition": "Stage Iv Pancreatic Cancer Ajcc V8",
+        "trial_count": 65
+      },
+      {
+        "condition": "Advanced Pancreatic Cancer",
+        "trial_count": 54
+      },
+      {
+        "condition": "Recurrent Pancreatic Cancer",
+        "trial_count": 52
+      },
+      {
+        "condition": "Stage Iii Pancreatic Cancer Ajcc V8",
+        "trial_count": 48
+      },
+      {
+        "condition": "Pancreatic Cancer Metastatic",
+        "trial_count": 47
+      },
+      {
+        "condition": "Locally Advanced Pancreatic Cancer",
+        "trial_count": 44
+      },
+      {
+        "condition": "Pancreatic Cancer Non-Resectable",
+        "trial_count": 41
+      },
+      {
+        "condition": "Pancreatic Cancer Resectable",
+        "trial_count": 34
+      },
+      {
+        "condition": "Stage Ii Pancreatic Cancer Ajcc V8",
+        "trial_count": 31
+      },
+      {
+        "condition": "Unresectable Pancreatic Cancer",
+        "trial_count": 30
+      },
+      {
+        "condition": "Resectable Pancreatic Cancer",
+        "trial_count": 29
+      },
+      {
+        "condition": "Pancreatic Cancer, Adult",
+        "trial_count": 23
+      },
+      {
+        "condition": "Stage Ii Pancreatic Cancer",
+        "trial_count": 22
+      },
+      {
+        "condition": "Stage Iib Pancreatic Cancer",
+        "trial_count": 20
+      },
+      {
+        "condition": "Stage Iv Pancreatic Cancer Ajcc V6 And V7",
+        "trial_count": 20
+      },
+      {
+        "condition": "Stage Iia Pancreatic Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Pancreatic Cancer Stage Iv",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iii Pancreatic Cancer Ajcc V6 And V7",
+        "trial_count": 15
+      },
+      {
+        "condition": "Stage Iia Pancreatic Cancer Ajcc V8",
+        "trial_count": 14
+      },
+      {
+        "condition": "Borderline Resectable Pancreatic Cancer",
+        "trial_count": 14
+      },
+      {
+        "condition": "Stage Ia Pancreatic Cancer",
+        "trial_count": 13
+      },
+      {
+        "condition": "Stage Ib Pancreatic Cancer",
+        "trial_count": 13
+      },
+      {
+        "condition": "Stage Iib Pancreatic Cancer Ajcc V8",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage Iva Pancreatic Cancer",
+        "trial_count": 11
+      },
+      {
+        "condition": "Stage Ivb Pancreatic Cancer",
+        "trial_count": 10
+      },
+      {
+        "condition": "Familial Pancreatic Cancer",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage I Pancreatic Cancer Ajcc V8",
+        "trial_count": 8
+      }
+    ]
+  },
+  "Hepatocellular Carcinoma": {
+    "trial_count": 1799,
+    "subtypes": [
+      {
+        "condition": "Hepatocellular Carcinoma (Hcc)",
+        "trial_count": 229
+      },
+      {
+        "condition": "Advanced Hepatocellular Carcinoma",
+        "trial_count": 124
+      },
+      {
+        "condition": "Unresectable Hepatocellular Carcinoma",
+        "trial_count": 72
+      },
+      {
+        "condition": "Hcc - Hepatocellular Carcinoma",
+        "trial_count": 67
+      },
+      {
+        "condition": "Hepatocellular Carcinoma Non-Resectable",
+        "trial_count": 65
+      },
+      {
+        "condition": "Adult Primary Hepatocellular Carcinoma",
+        "trial_count": 31
+      },
+      {
+        "condition": "Stage Iv Hepatocellular Carcinoma Ajcc V8",
+        "trial_count": 29
+      },
+      {
+        "condition": "Metastatic Hepatocellular Carcinoma",
+        "trial_count": 28
+      },
+      {
+        "condition": "Stage Iii Hepatocellular Carcinoma Ajcc V8",
+        "trial_count": 28
+      },
+      {
+        "condition": "Advanced Adult Hepatocellular Carcinoma",
+        "trial_count": 27
+      },
+      {
+        "condition": "Recurrent Hepatocellular Carcinoma",
+        "trial_count": 26
+      },
+      {
+        "condition": "Advanced Hepatocellular Carcinoma (Hcc)",
+        "trial_count": 25
+      },
+      {
+        "condition": "Resectable Hepatocellular Carcinoma",
+        "trial_count": 18
+      },
+      {
+        "condition": "Bclc Stage C Hepatocellular Carcinoma",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iva Hepatocellular Carcinoma Ajcc V8",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Ivb Hepatocellular Carcinoma Ajcc V8",
+        "trial_count": 17
+      },
+      {
+        "condition": "Stage Iiia Hepatocellular Carcinoma Ajcc V8",
+        "trial_count": 16
+      },
+      {
+        "condition": "Hepatocellular Carcinoma Recurrent",
+        "trial_count": 16
+      },
+      {
+        "condition": "Bclc Stage B Hepatocellular Carcinoma",
+        "trial_count": 15
+      },
+      {
+        "condition": "Stage Iiib Hepatocellular Carcinoma Ajcc V8",
+        "trial_count": 14
+      },
+      {
+        "condition": "Locally Advanced Hepatocellular Carcinoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Primary Hepatocellular Carcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Adult Hepatocellular Carcinoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Hepatocellular Carcinoma Resectable",
+        "trial_count": 9
+      },
+      {
+        "condition": "Unresectable Hepatocellular Carcinoma (Hcc)",
+        "trial_count": 9
+      },
+      {
+        "condition": "Hepatocellular Carcinoma By Bclc Stage",
+        "trial_count": 7
+      },
+      {
+        "condition": "Stage Iv Hepatocellular Carcinoma Ajcc V7",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iiic Hepatocellular Carcinoma Ajcc V7",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iiib Hepatocellular Carcinoma Ajcc V7",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iii Hepatocellular Carcinoma Ajcc V7",
+        "trial_count": 6
+      }
+    ]
+  },
+  "Gastric Cancer": {
+    "trial_count": 1789,
+    "subtypes": [
+      {
+        "condition": "Advanced Gastric Cancer",
+        "trial_count": 89
+      },
+      {
+        "condition": "Early Gastric Cancer",
+        "trial_count": 70
+      },
+      {
+        "condition": "Metastatic Gastric Cancer",
+        "trial_count": 49
+      },
+      {
+        "condition": "Gastric Cancer (Gc)",
+        "trial_count": 45
+      },
+      {
+        "condition": "Stage Iv Gastric Cancer",
+        "trial_count": 43
+      },
+      {
+        "condition": "Her2-Positive Gastric Cancer",
+        "trial_count": 36
+      },
+      {
+        "condition": "Recurrent Gastric Cancer",
+        "trial_count": 28
+      },
+      {
+        "condition": "Clinical Stage Iii Gastric Cancer Ajcc V8",
+        "trial_count": 25
+      },
+      {
+        "condition": "Clinical Stage Iv Gastric Cancer Ajcc V8",
+        "trial_count": 25
+      },
+      {
+        "condition": "Locally Advanced Gastric Cancer",
+        "trial_count": 22
+      },
+      {
+        "condition": "Stage Iiib Gastric Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Iiic Gastric Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Gastric Cancer Stage Iv",
+        "trial_count": 18
+      },
+      {
+        "condition": "Gastric Cancers",
+        "trial_count": 17
+      },
+      {
+        "condition": "Stage Iiia Gastric Cancer",
+        "trial_count": 16
+      },
+      {
+        "condition": "Gastric Cancer (Diagnosis)",
+        "trial_count": 15
+      },
+      {
+        "condition": "Clinical Stage Iva Gastric Cancer Ajcc V8",
+        "trial_count": 14
+      },
+      {
+        "condition": "Stage Iii Gastric Cancer",
+        "trial_count": 14
+      },
+      {
+        "condition": "Gastric Cancer Stage Iii",
+        "trial_count": 13
+      },
+      {
+        "condition": "Clinical Stage Ivb Gastric Cancer Ajcc V8",
+        "trial_count": 12
+      },
+      {
+        "condition": "Esophagogastric Cancer",
+        "trial_count": 12
+      },
+      {
+        "condition": "Pathologic Stage Iv Gastric Cancer Ajcc V8",
+        "trial_count": 11
+      },
+      {
+        "condition": "Gastric Cancer Stage",
+        "trial_count": 11
+      },
+      {
+        "condition": "Gastric Cancer Adenocarcinoma Metastatic",
+        "trial_count": 10
+      },
+      {
+        "condition": "Clinical Stage Ii Gastric Cancer Ajcc V8",
+        "trial_count": 10
+      },
+      {
+        "condition": "Clinical Stage I Gastric Cancer Ajcc V8",
+        "trial_count": 10
+      },
+      {
+        "condition": "Pathologic Stage Iiia Gastric Cancer Ajcc V8",
+        "trial_count": 10
+      },
+      {
+        "condition": "Postneoadjuvant Therapy Stage Iv Gastric Cancer Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Pathologic Stage Iiic Gastric Cancer Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Pathologic Stage Iiib Gastric Cancer Ajcc V8",
+        "trial_count": 9
+      }
+    ]
+  },
+  "Leukemia": {
+    "trial_count": 1656,
+    "subtypes": [
+      {
+        "condition": "Acute Myeloid Leukemia",
+        "trial_count": 1449
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia",
+        "trial_count": 738
+      },
+      {
+        "condition": "Acute Lymphoblastic Leukemia",
+        "trial_count": 645
+      },
+      {
+        "condition": "Chronic Myeloid Leukemia",
+        "trial_count": 265
+      },
+      {
+        "condition": "Chronic Myelomonocytic Leukemia",
+        "trial_count": 229
+      },
+      {
+        "condition": "Acute Myelogenous Leukemia",
+        "trial_count": 219
+      },
+      {
+        "condition": "Leukemia, Myeloid, Acute",
+        "trial_count": 204
+      },
+      {
+        "condition": "Acute Myeloid Leukemia (Aml)",
+        "trial_count": 202
+      },
+      {
+        "condition": "Acute Leukemia",
+        "trial_count": 199
+      },
+      {
+        "condition": "Recurrent Adult Acute Myeloid Leukemia",
+        "trial_count": 186
+      },
+      {
+        "condition": "Refractory Chronic Lymphocytic Leukemia",
+        "trial_count": 158
+      },
+      {
+        "condition": "Chronic Myelogenous Leukemia",
+        "trial_count": 150
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With 11Q23 (Mll) Abnormalities",
+        "trial_count": 148
+      },
+      {
+        "condition": "Secondary Acute Myeloid Leukemia",
+        "trial_count": 145
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With T(16;16)(P13;Q22)",
+        "trial_count": 145
+      },
+      {
+        "condition": "Refractory Acute Myeloid Leukemia",
+        "trial_count": 141
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With Inv(16)(P13;Q22)",
+        "trial_count": 141
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With T(8;21)(Q22;Q22)",
+        "trial_count": 141
+      },
+      {
+        "condition": "Acute Lymphocytic Leukemia",
+        "trial_count": 117
+      },
+      {
+        "condition": "Recurrent Acute Myeloid Leukemia",
+        "trial_count": 115
+      },
+      {
+        "condition": "Recurrent Adult Acute Lymphoblastic Leukemia",
+        "trial_count": 108
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With Del(5Q)",
+        "trial_count": 102
+      },
+      {
+        "condition": "Untreated Adult Acute Myeloid Leukemia",
+        "trial_count": 99
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With T(15;17)(Q22;Q12)",
+        "trial_count": 99
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia (Cll)",
+        "trial_count": 97
+      },
+      {
+        "condition": "B-Cell Acute Lymphoblastic Leukemia",
+        "trial_count": 87
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia In Remission",
+        "trial_count": 76
+      },
+      {
+        "condition": "Recurrent Childhood Acute Lymphoblastic Leukemia",
+        "trial_count": 73
+      },
+      {
+        "condition": "Recurrent Childhood Acute Myeloid Leukemia",
+        "trial_count": 71
+      },
+      {
+        "condition": "Relapsing Chronic Myelogenous Leukemia",
+        "trial_count": 68
+      }
+    ]
+  },
+  "Head And Neck Cancer": {
+    "trial_count": 1573,
+    "subtypes": [
+      {
+        "condition": "Head And Neck Cancers",
+        "trial_count": 46
+      },
+      {
+        "condition": "Recurrent Head And Neck Cancer",
+        "trial_count": 23
+      },
+      {
+        "condition": "Metastatic Head And Neck Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Head And Neck Cancer (H&N)",
+        "trial_count": 12
+      },
+      {
+        "condition": "Head And Neck Cancer Squamous Cell Carcinoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Squamous Cell Carcinoma Head And Neck Cancer (Hnscc)",
+        "trial_count": 8
+      },
+      {
+        "condition": "Locally Advanced Head And Neck Cancer",
+        "trial_count": 7
+      },
+      {
+        "condition": "Head And Neck Cancer Metastatic",
+        "trial_count": 6
+      },
+      {
+        "condition": "Advanced Head And Neck Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Head And Neck Cancer Stage Iv",
+        "trial_count": 4
+      },
+      {
+        "condition": "Head And Neck Cancer Stage Iii",
+        "trial_count": 3
+      },
+      {
+        "condition": "Squamous Cell Head And Neck Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Head And Neck Cancers- Squamous Cell",
+        "trial_count": 3
+      },
+      {
+        "condition": "Head And Neck Cancers - Nasopharyngeal",
+        "trial_count": 3
+      },
+      {
+        "condition": "Head And Neck Cancer Patients",
+        "trial_count": 3
+      },
+      {
+        "condition": "Head And Neck Cancers - Tonsils",
+        "trial_count": 3
+      },
+      {
+        "condition": "Head And Neck Cancer Survivors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancer Patients Treated With Radiotherapy",
+        "trial_count": 2
+      },
+      {
+        "condition": "Squamous Cell Carcinoma Of The Head And Neck Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancer (H&Amp;Amp;N)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Oral Mucositis In Head And Neck Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Neck Disease, Head And Neck Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancers - Throat",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancers Oral Cavity",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancers Lip",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancers Larynx",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancers Trachea",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancers Hypopharynx",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancers Oropharynx",
+        "trial_count": 2
+      },
+      {
+        "condition": "Head And Neck Cancers Nasopharynx",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Acute Myeloid Leukemia": {
+    "trial_count": 1449,
+    "subtypes": [
+      {
+        "condition": "Acute Myeloid Leukemia (Aml)",
+        "trial_count": 202
+      },
+      {
+        "condition": "Recurrent Adult Acute Myeloid Leukemia",
+        "trial_count": 186
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With 11Q23 (Mll) Abnormalities",
+        "trial_count": 148
+      },
+      {
+        "condition": "Secondary Acute Myeloid Leukemia",
+        "trial_count": 145
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With T(16;16)(P13;Q22)",
+        "trial_count": 145
+      },
+      {
+        "condition": "Refractory Acute Myeloid Leukemia",
+        "trial_count": 141
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With Inv(16)(P13;Q22)",
+        "trial_count": 141
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With T(8;21)(Q22;Q22)",
+        "trial_count": 141
+      },
+      {
+        "condition": "Recurrent Acute Myeloid Leukemia",
+        "trial_count": 115
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With Del(5Q)",
+        "trial_count": 102
+      },
+      {
+        "condition": "Untreated Adult Acute Myeloid Leukemia",
+        "trial_count": 99
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With T(15;17)(Q22;Q12)",
+        "trial_count": 99
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia In Remission",
+        "trial_count": 76
+      },
+      {
+        "condition": "Recurrent Childhood Acute Myeloid Leukemia",
+        "trial_count": 71
+      },
+      {
+        "condition": "Acute Myeloid Leukemia Arising From Previous Myelodysplastic Syndrome",
+        "trial_count": 47
+      },
+      {
+        "condition": "Acute Myeloid Leukemia, In Relapse",
+        "trial_count": 42
+      },
+      {
+        "condition": "Childhood Acute Myeloid Leukemia In Remission",
+        "trial_count": 40
+      },
+      {
+        "condition": "Acute Myeloid Leukemia In Remission",
+        "trial_count": 38
+      },
+      {
+        "condition": "Acute Myeloid Leukemia, Adult",
+        "trial_count": 26
+      },
+      {
+        "condition": "Acute Myeloid Leukemia Refractory",
+        "trial_count": 25
+      },
+      {
+        "condition": "Therapy-Related Acute Myeloid Leukemia",
+        "trial_count": 23
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With Inv(16)(P13.1Q22); Cbfb-Myh11",
+        "trial_count": 20
+      },
+      {
+        "condition": "Acute Myeloid Leukemia With Multilineage Dysplasia Following Myelodysplastic Syndrome",
+        "trial_count": 19
+      },
+      {
+        "condition": "Relapsed/Refractory Acute Myeloid Leukemia",
+        "trial_count": 19
+      },
+      {
+        "condition": "Adult Acute Myeloid Leukemia With T(16;16)(P13.1;Q22); Cbfb-Myh11",
+        "trial_count": 18
+      },
+      {
+        "condition": "Relapsed Acute Myeloid Leukemia",
+        "trial_count": 17
+      },
+      {
+        "condition": "Aml (Acute Myeloid Leukemia)",
+        "trial_count": 16
+      },
+      {
+        "condition": "Alkylating Agent-Related Acute Myeloid Leukemia",
+        "trial_count": 15
+      },
+      {
+        "condition": "Acute Myeloid Leukemia With Flt3/Itd Mutation",
+        "trial_count": 15
+      },
+      {
+        "condition": "Relapsed Or Refractory Acute Myeloid Leukemia",
+        "trial_count": 15
+      }
+    ]
+  },
+  "Melanoma": {
+    "trial_count": 1448,
+    "subtypes": [
+      {
+        "condition": "Metastatic Melanoma",
+        "trial_count": 358
+      },
+      {
+        "condition": "Melanoma (Skin)",
+        "trial_count": 351
+      },
+      {
+        "condition": "Malignant Melanoma",
+        "trial_count": 240
+      },
+      {
+        "condition": "Recurrent Melanoma",
+        "trial_count": 111
+      },
+      {
+        "condition": "Stage Iv Melanoma",
+        "trial_count": 110
+      },
+      {
+        "condition": "Uveal Melanoma",
+        "trial_count": 104
+      },
+      {
+        "condition": "Advanced Melanoma",
+        "trial_count": 97
+      },
+      {
+        "condition": "Cutaneous Melanoma",
+        "trial_count": 72
+      },
+      {
+        "condition": "Unresectable Melanoma",
+        "trial_count": 68
+      },
+      {
+        "condition": "Clinical Stage Iv Cutaneous Melanoma Ajcc V8",
+        "trial_count": 55
+      },
+      {
+        "condition": "Mucosal Melanoma",
+        "trial_count": 50
+      },
+      {
+        "condition": "Melanoma Stage Iv",
+        "trial_count": 50
+      },
+      {
+        "condition": "Melanoma Stage Iii",
+        "trial_count": 44
+      },
+      {
+        "condition": "Non-Melanoma Skin Cancer",
+        "trial_count": 42
+      },
+      {
+        "condition": "Melanoma (Skin Cancer)",
+        "trial_count": 41
+      },
+      {
+        "condition": "Stage Iv Cutaneous Melanoma Ajcc V6 And V7",
+        "trial_count": 39
+      },
+      {
+        "condition": "Clinical Stage Iii Cutaneous Melanoma Ajcc V8",
+        "trial_count": 39
+      },
+      {
+        "condition": "Metastatic Uveal Melanoma",
+        "trial_count": 35
+      },
+      {
+        "condition": "Intraocular Melanoma",
+        "trial_count": 34
+      },
+      {
+        "condition": "Stage Iii Melanoma",
+        "trial_count": 32
+      },
+      {
+        "condition": "Stage Iv Skin Melanoma",
+        "trial_count": 31
+      },
+      {
+        "condition": "Ocular Melanoma",
+        "trial_count": 28
+      },
+      {
+        "condition": "Stage Iiic Cutaneous Melanoma Ajcc V7",
+        "trial_count": 28
+      },
+      {
+        "condition": "Pathologic Stage Iv Cutaneous Melanoma Ajcc V8",
+        "trial_count": 27
+      },
+      {
+        "condition": "Non-Melanomatous Skin Cancer",
+        "trial_count": 27
+      },
+      {
+        "condition": "Pathologic Stage Iiic Cutaneous Melanoma Ajcc V8",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iiib Cutaneous Melanoma Ajcc V7",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iiic Skin Melanoma",
+        "trial_count": 22
+      },
+      {
+        "condition": "Stage Iiic Melanoma",
+        "trial_count": 21
+      },
+      {
+        "condition": "Pathologic Stage Iiib Cutaneous Melanoma Ajcc V8",
+        "trial_count": 21
+      }
+    ]
+  },
+  "Cervical Cancer": {
+    "trial_count": 1282,
+    "subtypes": [
+      {
+        "condition": "Cervical Cancer Screening",
+        "trial_count": 66
+      },
+      {
+        "condition": "Locally Advanced Cervical Cancer",
+        "trial_count": 49
+      },
+      {
+        "condition": "Cervical Cancers",
+        "trial_count": 45
+      },
+      {
+        "condition": "Uterine Cervical Cancer",
+        "trial_count": 35
+      },
+      {
+        "condition": "Stage Iva Cervical Cancer",
+        "trial_count": 31
+      },
+      {
+        "condition": "Stage Iii Cervical Cancer",
+        "trial_count": 26
+      },
+      {
+        "condition": "Recurrent Cervical Cancer",
+        "trial_count": 26
+      },
+      {
+        "condition": "Stage Ivb Cervical Cancer",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Ib Cervical Cancer",
+        "trial_count": 20
+      },
+      {
+        "condition": "Stage Iia Cervical Cancer",
+        "trial_count": 20
+      },
+      {
+        "condition": "Stage Iib Cervical Cancer",
+        "trial_count": 20
+      },
+      {
+        "condition": "Metastatic Cervical Cancer",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iv Cervical Cancer Ajcc V8",
+        "trial_count": 13
+      },
+      {
+        "condition": "Stage Iii Cervical Cancer Ajcc V8",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage Iva Cervical Cancer Ajcc V8",
+        "trial_count": 11
+      },
+      {
+        "condition": "Stage Ivb Cervical Cancer Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iiib Cervical Cancer Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iiib Cervical Cancer",
+        "trial_count": 9
+      },
+      {
+        "condition": "Cervical Cancer Recurrent",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iiia Cervical Cancer",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iva Cervical Cancer Ajcc V6 And V7",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Ia Cervical Cancer",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iia Cervical Cancer Ajcc V7",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iiia Cervical Cancer Ajcc V8",
+        "trial_count": 8
+      },
+      {
+        "condition": "Cervical Cancer Metastatic",
+        "trial_count": 8
+      },
+      {
+        "condition": "Cervical Cancer Prevention",
+        "trial_count": 8
+      },
+      {
+        "condition": "Advanced Cervical Cancer",
+        "trial_count": 8
+      },
+      {
+        "condition": "Recurrent Or Metastatic Cervical Cancer",
+        "trial_count": 7
+      },
+      {
+        "condition": "Stage Iib Cervical Cancer Ajcc V6 And V7",
+        "trial_count": 7
+      },
+      {
+        "condition": "Stage Iiib Cervical Cancer Ajcc V6 And V7",
+        "trial_count": 7
+      }
+    ]
+  },
+  "Non-Small Cell Lung Cancer": {
+    "trial_count": 1153,
+    "subtypes": [
+      {
+        "condition": "Non-Small Cell Lung Cancer (Nsclc)",
+        "trial_count": 139
+      },
+      {
+        "condition": "Stage Iv Non-Small Cell Lung Cancer",
+        "trial_count": 115
+      },
+      {
+        "condition": "Recurrent Non-Small Cell Lung Cancer",
+        "trial_count": 88
+      },
+      {
+        "condition": "Stage Iiib Non-Small Cell Lung Cancer",
+        "trial_count": 79
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Metastatic",
+        "trial_count": 66
+      },
+      {
+        "condition": "Non-Squamous Non-Small Cell Lung Cancer",
+        "trial_count": 58
+      },
+      {
+        "condition": "Stage Iiia Non-Small Cell Lung Cancer",
+        "trial_count": 49
+      },
+      {
+        "condition": "Advanced Non-Small Cell Lung Cancer",
+        "trial_count": 48
+      },
+      {
+        "condition": "Nsclc (Advanced Non-Small Cell Lung Cancer)",
+        "trial_count": 46
+      },
+      {
+        "condition": "Nsclc (Non-Small Cell Lung Cancer)",
+        "trial_count": 46
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Stage Iii",
+        "trial_count": 32
+      },
+      {
+        "condition": "Metastatic Non-Small Cell Lung Cancer",
+        "trial_count": 30
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Stage Iv",
+        "trial_count": 25
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Stage I",
+        "trial_count": 22
+      },
+      {
+        "condition": "Egf-R Positive Non-Small Cell Lung Cancer",
+        "trial_count": 21
+      },
+      {
+        "condition": "Egfr Positive Non-Small Cell Lung Cancer",
+        "trial_count": 20
+      },
+      {
+        "condition": "Stage Iii Non-Small Cell Lung Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Iv Non-Small Cell Lung Cancer Ajcc V7",
+        "trial_count": 18
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Stage Ii",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iib Non-Small Cell Lung Cancer",
+        "trial_count": 17
+      },
+      {
+        "condition": "Stage Iia Non-Small Cell Lung Cancer",
+        "trial_count": 16
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Stage Iiib",
+        "trial_count": 15
+      },
+      {
+        "condition": "Locally Advanced Non-Small Cell Lung Cancer",
+        "trial_count": 12
+      },
+      {
+        "condition": "Squamous Non-Small Cell Lung Cancer",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage Ib Non-Small Cell Lung Cancer",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage Ia Non-Small Cell Lung Cancer",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage Iiia Non-Small Cell Lung Cancer Ajcc V7",
+        "trial_count": 11
+      },
+      {
+        "condition": "Stage Iiib Non-Small Cell Lung Cancer Ajcc V7",
+        "trial_count": 11
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Recurrent",
+        "trial_count": 8
+      },
+      {
+        "condition": "Resectable Non-Small Cell Lung Cancer",
+        "trial_count": 8
+      }
+    ]
+  },
+  "Bladder Cancer": {
+    "trial_count": 1088,
+    "subtypes": [
+      {
+        "condition": "Gallbladder Cancer",
+        "trial_count": 118
+      },
+      {
+        "condition": "Urinary Bladder Cancer",
+        "trial_count": 38
+      },
+      {
+        "condition": "Non-Muscle Invasive Bladder Cancer",
+        "trial_count": 37
+      },
+      {
+        "condition": "Stage Iv Bladder Cancer",
+        "trial_count": 29
+      },
+      {
+        "condition": "Recurrent Bladder Cancer",
+        "trial_count": 26
+      },
+      {
+        "condition": "Non Muscle Invasive Bladder Cancer",
+        "trial_count": 25
+      },
+      {
+        "condition": "Gall Bladder Cancer",
+        "trial_count": 25
+      },
+      {
+        "condition": "Muscle Invasive Bladder Cancer",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iii Bladder Cancer",
+        "trial_count": 24
+      },
+      {
+        "condition": "Non-Muscle-Invasive Bladder Cancer",
+        "trial_count": 22
+      },
+      {
+        "condition": "Stage Iv Bladder Cancer Ajcc V8",
+        "trial_count": 22
+      },
+      {
+        "condition": "Unresectable Gallbladder Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Iii Bladder Cancer Ajcc V8",
+        "trial_count": 18
+      },
+      {
+        "condition": "Muscle-Invasive Bladder Cancer",
+        "trial_count": 17
+      },
+      {
+        "condition": "Superficial Bladder Cancer",
+        "trial_count": 17
+      },
+      {
+        "condition": "Stage Iiia Bladder Cancer Ajcc V8",
+        "trial_count": 16
+      },
+      {
+        "condition": "Recurrent Gallbladder Cancer",
+        "trial_count": 15
+      },
+      {
+        "condition": "Stage Ii Bladder Cancer Ajcc V8",
+        "trial_count": 15
+      },
+      {
+        "condition": "Metastatic Bladder Cancer",
+        "trial_count": 13
+      },
+      {
+        "condition": "Invasive Bladder Cancer",
+        "trial_count": 13
+      },
+      {
+        "condition": "Stage I Bladder Cancer Ajcc V8",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage 0A Bladder Cancer Ajcc V8",
+        "trial_count": 12
+      },
+      {
+        "condition": "Non-Muscle Invasive Bladder Cancer (Nmibc)",
+        "trial_count": 11
+      },
+      {
+        "condition": "Stage Ii Bladder Cancer",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage 0Is Bladder Cancer Ajcc V8",
+        "trial_count": 10
+      },
+      {
+        "condition": "Urethral Cancer Associated With Invasive Bladder Cancer",
+        "trial_count": 9
+      },
+      {
+        "condition": "Bladder Cancer Recurrence",
+        "trial_count": 8
+      },
+      {
+        "condition": "Muscle Invasive Bladder Cancer (Mibc)",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iva Bladder Cancer Ajcc V8",
+        "trial_count": 7
+      },
+      {
+        "condition": "Stage Iiib Bladder Cancer Ajcc V8",
+        "trial_count": 7
+      }
+    ]
+  },
+  "Esophageal Cancer": {
+    "trial_count": 1033,
+    "subtypes": [
+      {
+        "condition": "Oesophageal Cancer",
+        "trial_count": 80
+      },
+      {
+        "condition": "Gastroesophageal Cancer",
+        "trial_count": 59
+      },
+      {
+        "condition": "Stage Iv Esophageal Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Recurrent Esophageal Cancer",
+        "trial_count": 14
+      },
+      {
+        "condition": "Stage Iii Esophageal Cancer",
+        "trial_count": 11
+      },
+      {
+        "condition": "Esophageal Cancer (Esc)",
+        "trial_count": 10
+      },
+      {
+        "condition": "Gastrooesophageal Cancer",
+        "trial_count": 9
+      },
+      {
+        "condition": "Gastroesophageal Cancer (Gc)",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iiic Esophageal Cancer",
+        "trial_count": 7
+      },
+      {
+        "condition": "Stage Iv Esophageal Cancer Ajcc V7",
+        "trial_count": 7
+      },
+      {
+        "condition": "Metastatic Esophageal Cancer",
+        "trial_count": 7
+      },
+      {
+        "condition": "Resectable Esophageal Cancer",
+        "trial_count": 7
+      },
+      {
+        "condition": "Stage Iiib Esophageal Cancer",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iiia Esophageal Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Esophageal Cancer, Squamous Cell",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iiib Esophageal Cancer Ajcc V7",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iiia Esophageal Cancer Ajcc V7",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iib Esophageal Cancer Ajcc V7",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iii Esophageal Cancer Ajcc V7",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ii Esophageal Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Gastro-Esophageal Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Esophageal Cancer Stage Iii",
+        "trial_count": 4
+      },
+      {
+        "condition": "Advanced Esophageal Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Unresectable Esophageal Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iiic Esophageal Cancer Ajcc V7",
+        "trial_count": 3
+      },
+      {
+        "condition": "Superficial Esophageal Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Iib Esophageal Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Early Esophageal Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Oesophageal Cancer Nos",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Iia Esophageal Cancer Ajcc V7",
+        "trial_count": 3
+      }
+    ]
+  },
+  "Rectal Cancer": {
+    "trial_count": 962,
+    "subtypes": [
+      {
+        "condition": "Colorectal Cancer",
+        "trial_count": 3421
+      },
+      {
+        "condition": "Metastatic Colorectal Cancer",
+        "trial_count": 603
+      },
+      {
+        "condition": "Colorectal Cancer Metastatic",
+        "trial_count": 208
+      },
+      {
+        "condition": "Colo-Rectal Cancer",
+        "trial_count": 174
+      },
+      {
+        "condition": "Colorectal Cancer (Crc)",
+        "trial_count": 98
+      },
+      {
+        "condition": "Colorectal Cancer Screening",
+        "trial_count": 91
+      },
+      {
+        "condition": "Recurrent Rectal Cancer",
+        "trial_count": 82
+      },
+      {
+        "condition": "Locally Advanced Rectal Cancer",
+        "trial_count": 79
+      },
+      {
+        "condition": "Advanced Colorectal Cancer",
+        "trial_count": 69
+      },
+      {
+        "condition": "Stage Iv Colorectal Cancer Ajcc V8",
+        "trial_count": 67
+      },
+      {
+        "condition": "Stage Iii Colorectal Cancer Ajcc V8",
+        "trial_count": 49
+      },
+      {
+        "condition": "Stage Iv Rectal Cancer",
+        "trial_count": 48
+      },
+      {
+        "condition": "Stage Iva Colorectal Cancer Ajcc V8",
+        "trial_count": 38
+      },
+      {
+        "condition": "Stage Ivb Colorectal Cancer Ajcc V8",
+        "trial_count": 38
+      },
+      {
+        "condition": "Stage Ivc Colorectal Cancer Ajcc V8",
+        "trial_count": 38
+      },
+      {
+        "condition": "Stage Iva Rectal Cancer",
+        "trial_count": 33
+      },
+      {
+        "condition": "Stage Ivb Rectal Cancer",
+        "trial_count": 32
+      },
+      {
+        "condition": "Colorectal Cancer Stage Iv",
+        "trial_count": 30
+      },
+      {
+        "condition": "Metastatic Colorectal Cancer (Crc)",
+        "trial_count": 30
+      },
+      {
+        "condition": "Stage Iii Rectal Cancer Ajcc V8",
+        "trial_count": 27
+      },
+      {
+        "condition": "Stage Iiic Colorectal Cancer Ajcc V8",
+        "trial_count": 26
+      },
+      {
+        "condition": "Crc (Colorectal Cancer)",
+        "trial_count": 26
+      },
+      {
+        "condition": "Colorectal Cancer Stage Iii",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iiia Colorectal Cancer Ajcc V8",
+        "trial_count": 25
+      },
+      {
+        "condition": "Rectal Cancer Patients",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iv Colorectal Cancer",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iiib Colorectal Cancer Ajcc V8",
+        "trial_count": 25
+      },
+      {
+        "condition": "Stage Iiic Rectal Cancer",
+        "trial_count": 24
+      },
+      {
+        "condition": "Stage Iiib Rectal Cancer",
+        "trial_count": 24
+      },
+      {
+        "condition": "Stage Iii Rectal Cancer",
+        "trial_count": 24
+      }
+    ]
+  },
+  "Breast Neoplasms": {
+    "trial_count": 942,
+    "subtypes": [
+      {
+        "condition": "Triple Negative Breast Neoplasms",
+        "trial_count": 59
+      },
+      {
+        "condition": "Her2 Negative Breast Neoplasms",
+        "trial_count": 4
+      },
+      {
+        "condition": "Breast Neoplasms, Male",
+        "trial_count": 3
+      },
+      {
+        "condition": "Hormone Receptor Positive Breast Neoplasms",
+        "trial_count": 3
+      },
+      {
+        "condition": "Breast Neoplasms, Triple-Negative",
+        "trial_count": 3
+      },
+      {
+        "condition": "Operable Breast Neoplasms",
+        "trial_count": 2
+      },
+      {
+        "condition": "Breast Neoplasms Diagnosis",
+        "trial_count": 2
+      },
+      {
+        "condition": "Her2 Positive Breast Neoplasms",
+        "trial_count": 2
+      },
+      {
+        "condition": "Hrpos Breast Neoplasms",
+        "trial_count": 2
+      },
+      {
+        "condition": "Her2 Mutations Breast Neoplasms",
+        "trial_count": 2
+      },
+      {
+        "condition": "Breast Cancer, Breast Neoplasms",
+        "trial_count": 2
+      },
+      {
+        "condition": "Triple-Negative Breast Neoplasms",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Metastatic Breast Cancer": {
+    "trial_count": 899,
+    "subtypes": [
+      {
+        "condition": "Her2-Positive Metastatic Breast Cancer",
+        "trial_count": 25
+      },
+      {
+        "condition": "Locally Advanced Or Metastatic Breast Cancer",
+        "trial_count": 20
+      },
+      {
+        "condition": "Advanced Or Metastatic Breast Cancer",
+        "trial_count": 15
+      },
+      {
+        "condition": "Her2 Positive Metastatic Breast Cancer",
+        "trial_count": 7
+      },
+      {
+        "condition": "Metastatic Breast Cancer (Mbc)",
+        "trial_count": 6
+      },
+      {
+        "condition": "Recurrent Or Metastatic Breast Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Her2-Negative Metastatic Breast Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Metastatic Breast Cancer ( Her2 Negative)",
+        "trial_count": 4
+      },
+      {
+        "condition": "Advanced Metastatic Breast Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Locally Recurrent And Metastatic Breast Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Triple Negative Metastatic Breast Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Non Metastatic Breast Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Non-Metastatic Breast Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Breast Cancer Metastatic Breast Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Breast Cancer, Metastatic Breast Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Advanced/Metastatic Breast Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Metastatic Breast Cancer In The Liver",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Iiib, Iv, Recurrent, And Metastatic Breast Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Metastatic Breast Cancer With Her2 Positive",
+        "trial_count": 2
+      },
+      {
+        "condition": "Hr+ Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Her2-Positive, Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Hormone Receptor Positive Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced And Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Triple-Negative Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Unresectable Or Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Her-2 Positive Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Hormone Receptor Positive (Er+/Pr+, And Her2-) Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Locally Advanced (Inoperable) Or Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Hr+/Her2- Locally Advanced, Metastatic Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Hr+ Advanced Or Metastatic Breast Cancer",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Glioblastoma": {
+    "trial_count": 875,
+    "subtypes": [
+      {
+        "condition": "Glioblastoma Multiforme",
+        "trial_count": 425
+      },
+      {
+        "condition": "Recurrent Glioblastoma",
+        "trial_count": 162
+      },
+      {
+        "condition": "Adult Glioblastoma",
+        "trial_count": 80
+      },
+      {
+        "condition": "Adult Giant Cell Glioblastoma",
+        "trial_count": 74
+      },
+      {
+        "condition": "Glioblastoma (Gbm)",
+        "trial_count": 47
+      },
+      {
+        "condition": "Glioblastoma Multiforme Of Brain",
+        "trial_count": 25
+      },
+      {
+        "condition": "Glioblastoma, Idh-Wildtype",
+        "trial_count": 24
+      },
+      {
+        "condition": "Glioblastoma Multiforme, Adult",
+        "trial_count": 24
+      },
+      {
+        "condition": "Giant Cell Glioblastoma",
+        "trial_count": 22
+      },
+      {
+        "condition": "Glioblastoma Multiforme (Gbm)",
+        "trial_count": 22
+      },
+      {
+        "condition": "Glioblastoma, Adult",
+        "trial_count": 20
+      },
+      {
+        "condition": "Recurrent Glioblastoma Multiforme",
+        "trial_count": 20
+      },
+      {
+        "condition": "Newly Diagnosed Glioblastoma",
+        "trial_count": 14
+      },
+      {
+        "condition": "Mgmt-Unmethylated Glioblastoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Recurrent Glioblastoma, Idh-Wildtype",
+        "trial_count": 10
+      },
+      {
+        "condition": "Glioma Glioblastoma Multiforme",
+        "trial_count": 10
+      },
+      {
+        "condition": "Glioblastoma Idh (Isocitrate Dehydrogenase) Wildtype",
+        "trial_count": 8
+      },
+      {
+        "condition": "Supratentorial Glioblastoma",
+        "trial_count": 8
+      },
+      {
+        "condition": "Recurrent Childhood Glioblastoma",
+        "trial_count": 8
+      },
+      {
+        "condition": "Refractory Glioblastoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Mgmt-Methylated Glioblastoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Recurrent Childhood Giant Cell Glioblastoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Adult Brain Glioblastoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Glioblastomas",
+        "trial_count": 5
+      },
+      {
+        "condition": "Untreated Childhood Glioblastoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Untreated Childhood Giant Cell Glioblastoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Advanced Glioblastoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Glioblastoma Who Grade Iv",
+        "trial_count": 4
+      },
+      {
+        "condition": "Glioblastoma, Idh-Mutant",
+        "trial_count": 4
+      },
+      {
+        "condition": "Glioblastoma Multiform (Grade Iv Astrocytoma)",
+        "trial_count": 4
+      }
+    ]
+  },
+  "Endometrial Cancer": {
+    "trial_count": 828,
+    "subtypes": [
+      {
+        "condition": "Recurrent Endometrial Cancer",
+        "trial_count": 15
+      },
+      {
+        "condition": "Endometrial Cancer Stage I",
+        "trial_count": 13
+      },
+      {
+        "condition": "Advanced Endometrial Cancer",
+        "trial_count": 10
+      },
+      {
+        "condition": "Metastatic Endometrial Cancer",
+        "trial_count": 8
+      },
+      {
+        "condition": "Endometrial Cancer Recurrent",
+        "trial_count": 8
+      },
+      {
+        "condition": "Endometrioid Endometrial Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Endometrial Cancer Stage Ii",
+        "trial_count": 4
+      },
+      {
+        "condition": "Early Stage Endometrial Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Endometrial Cancer Stage Iv",
+        "trial_count": 4
+      },
+      {
+        "condition": "Endometrial Cancer, Endometrial Neoplasm",
+        "trial_count": 3
+      },
+      {
+        "condition": "Uterine Endometrial Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Endometrial Cancer Stage",
+        "trial_count": 3
+      },
+      {
+        "condition": "Clear Cell Endometrial Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Iv Endometrial Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Endometrial Hyperplasia And Endometrial Cancers",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage Iii Endometrial Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Or Recurrent Endometrial Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Endometrial Cancer Stage Iii",
+        "trial_count": 2
+      },
+      {
+        "condition": "Endometrial Cancer Survivors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Endometrial Cancers",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Colon Cancer": {
+    "trial_count": 806,
+    "subtypes": [
+      {
+        "condition": "Recurrent Colon Cancer",
+        "trial_count": 75
+      },
+      {
+        "condition": "Stage Iv Colon Cancer",
+        "trial_count": 56
+      },
+      {
+        "condition": "Liver Metastasis Colon Cancer",
+        "trial_count": 53
+      },
+      {
+        "condition": "Stage Iii Colon Cancer",
+        "trial_count": 38
+      },
+      {
+        "condition": "Stage Ivb Colon Cancer",
+        "trial_count": 34
+      },
+      {
+        "condition": "Stage Iva Colon Cancer",
+        "trial_count": 34
+      },
+      {
+        "condition": "Metastatic Colon Cancer",
+        "trial_count": 33
+      },
+      {
+        "condition": "Colon Cancer Screening",
+        "trial_count": 22
+      },
+      {
+        "condition": "Stage Iiic Colon Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Iiia Colon Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Colon Cancer Liver Metastasis",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iiib Colon Cancer",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iv Colon Cancer Ajcc V8",
+        "trial_count": 17
+      },
+      {
+        "condition": "Stage Iii Colon Cancer Ajcc V8",
+        "trial_count": 17
+      },
+      {
+        "condition": "Stage Ii Colon Cancer",
+        "trial_count": 14
+      },
+      {
+        "condition": "Colon Cancer Stage Iii",
+        "trial_count": 13
+      },
+      {
+        "condition": "Stage Ivb Colon Cancer Ajcc V8",
+        "trial_count": 11
+      },
+      {
+        "condition": "Stage I Colon Cancer",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage Ivc Colon Cancer Ajcc V8",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage Iva Colon Cancer Ajcc V8",
+        "trial_count": 10
+      },
+      {
+        "condition": "Colon Cancer Stage Ii",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iiic Colon Cancer Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iiia Colon Cancer Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iic Colon Cancer",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iib Colon Cancer",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iiib Colon Cancer Ajcc V8",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iia Colon Cancer",
+        "trial_count": 8
+      },
+      {
+        "condition": "Colon Cancer Stage I",
+        "trial_count": 7
+      },
+      {
+        "condition": "Locally Advanced Colon Cancer",
+        "trial_count": 6
+      },
+      {
+        "condition": "Cancer (Colon Cancer, Breast Cancer, Lymphoma, Chronic Lymphoma Leukemia, Multiple Myeloma)",
+        "trial_count": 6
+      }
+    ]
+  },
+  "Advanced Solid Tumors": {
+    "trial_count": 800,
+    "subtypes": [
+      {
+        "condition": "Advanced Solid Tumors Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Locally Advanced Solid Tumors",
+        "trial_count": 10
+      },
+      {
+        "condition": "Patients With Advanced Solid Tumors",
+        "trial_count": 7
+      },
+      {
+        "condition": "Select Advanced Solid Tumors",
+        "trial_count": 6
+      },
+      {
+        "condition": "Advanced Solid Tumors (Phase 1)",
+        "trial_count": 3
+      },
+      {
+        "condition": "Advanced Solid Tumors Or Lymphomas",
+        "trial_count": 3
+      },
+      {
+        "condition": "Msi-H Or Dmmr Advanced Solid Tumors",
+        "trial_count": 3
+      },
+      {
+        "condition": "Metastatic Or Locally Advanced Solid Tumors",
+        "trial_count": 3
+      },
+      {
+        "condition": "Her2-Positive Advanced Solid Tumors",
+        "trial_count": 3
+      },
+      {
+        "condition": "Other Advanced Solid Tumors",
+        "trial_count": 3
+      },
+      {
+        "condition": "Advanced Solid Tumors Or Hematologic Malignancies",
+        "trial_count": 2
+      },
+      {
+        "condition": "Specific Advanced Solid Tumors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Solid Tumors (Excluding Breast Cancer)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Her2/Neu Positive Advanced Solid Tumors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Kras G12C Mutant Advanced Solid Tumors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Solid Tumors Harboring Ras Mutations Or Amplifications",
+        "trial_count": 2
+      },
+      {
+        "condition": "Cmet-Dysregulated Advanced Solid Tumors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Selected Advanced Solid Tumors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Cdh17-Positive Advanced Solid Tumors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Solid Tumors, Excluding Breast Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Cancer, Advanced Solid Tumors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Claudin18.2 Positive Advanced Solid Tumors",
+        "trial_count": 2
+      },
+      {
+        "condition": "Solid Tumors, Advanced Solid Tumors",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Sarcoma": {
+    "trial_count": 761,
+    "subtypes": [
+      {
+        "condition": "Soft Tissue Sarcoma",
+        "trial_count": 295
+      },
+      {
+        "condition": "Osteosarcoma",
+        "trial_count": 242
+      },
+      {
+        "condition": "Rhabdomyosarcoma",
+        "trial_count": 125
+      },
+      {
+        "condition": "Gliosarcoma",
+        "trial_count": 121
+      },
+      {
+        "condition": "Ewing Sarcoma",
+        "trial_count": 105
+      },
+      {
+        "condition": "Adult Gliosarcoma",
+        "trial_count": 78
+      },
+      {
+        "condition": "Leiomyosarcoma",
+        "trial_count": 76
+      },
+      {
+        "condition": "Recurrent Osteosarcoma",
+        "trial_count": 56
+      },
+      {
+        "condition": "Synovial Sarcoma",
+        "trial_count": 55
+      },
+      {
+        "condition": "Sarcoma, Soft Tissue",
+        "trial_count": 55
+      },
+      {
+        "condition": "Liposarcoma",
+        "trial_count": 55
+      },
+      {
+        "condition": "Recurrent Adult Soft Tissue Sarcoma",
+        "trial_count": 47
+      },
+      {
+        "condition": "Sarcoma, Kaposi",
+        "trial_count": 46
+      },
+      {
+        "condition": "Sarcoma,Soft Tissue",
+        "trial_count": 46
+      },
+      {
+        "condition": "Chondrosarcoma",
+        "trial_count": 43
+      },
+      {
+        "condition": "Kaposi Sarcoma",
+        "trial_count": 39
+      },
+      {
+        "condition": "Stage Iv Adult Soft Tissue Sarcoma",
+        "trial_count": 37
+      },
+      {
+        "condition": "Stage Iii Adult Soft Tissue Sarcoma",
+        "trial_count": 35
+      },
+      {
+        "condition": "Bone Sarcoma",
+        "trial_count": 34
+      },
+      {
+        "condition": "Ewing'S Sarcoma",
+        "trial_count": 33
+      },
+      {
+        "condition": "Angiosarcoma",
+        "trial_count": 29
+      },
+      {
+        "condition": "Recurrent Childhood Rhabdomyosarcoma",
+        "trial_count": 27
+      },
+      {
+        "condition": "Soft Tissue Sarcoma Adult",
+        "trial_count": 27
+      },
+      {
+        "condition": "Recurrent Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor",
+        "trial_count": 27
+      },
+      {
+        "condition": "Refractory Osteosarcoma",
+        "trial_count": 27
+      },
+      {
+        "condition": "Metastatic Osteosarcoma",
+        "trial_count": 25
+      },
+      {
+        "condition": "Undifferentiated Pleomorphic Sarcoma",
+        "trial_count": 25
+      },
+      {
+        "condition": "Retroperitoneal Sarcoma",
+        "trial_count": 24
+      },
+      {
+        "condition": "Metastatic Sarcoma",
+        "trial_count": 22
+      },
+      {
+        "condition": "Kaposi'S Sarcoma",
+        "trial_count": 22
+      }
+    ]
+  },
+  "Myelodysplastic Syndromes": {
+    "trial_count": 760,
+    "subtypes": [
+      {
+        "condition": "Previously Treated Myelodysplastic Syndromes",
+        "trial_count": 81
+      },
+      {
+        "condition": "De Novo Myelodysplastic Syndromes",
+        "trial_count": 68
+      },
+      {
+        "condition": "Secondary Myelodysplastic Syndromes",
+        "trial_count": 59
+      },
+      {
+        "condition": "Childhood Myelodysplastic Syndromes",
+        "trial_count": 42
+      },
+      {
+        "condition": "Myelodysplastic Syndromes (Mds)",
+        "trial_count": 35
+      },
+      {
+        "condition": "Relapsed Myelodysplastic Syndromes",
+        "trial_count": 3
+      },
+      {
+        "condition": "Refractory Myelodysplastic Syndromes",
+        "trial_count": 3
+      },
+      {
+        "condition": "Low Risk Myelodysplastic Syndromes",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Myelodysplastic Syndromes",
+        "trial_count": 2
+      },
+      {
+        "condition": "Myelodysplastic Syndromes, Adult",
+        "trial_count": 2
+      },
+      {
+        "condition": "Myelodysplastic Syndromes, Previously Treated",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Unspecified Adult Solid Tumor, Protocol Specific": {
+    "trial_count": 758,
+    "subtypes": []
+  },
+  "Solid Tumors": {
+    "trial_count": 756,
+    "subtypes": [
+      {
+        "condition": "Advanced Solid Tumors",
+        "trial_count": 800
+      },
+      {
+        "condition": "Advanced Or Metastatic Solid Tumors",
+        "trial_count": 71
+      },
+      {
+        "condition": "Metastatic Solid Tumors",
+        "trial_count": 66
+      },
+      {
+        "condition": "Locally Advanced Or Metastatic Solid Tumors",
+        "trial_count": 40
+      },
+      {
+        "condition": "Refractory Solid Tumors",
+        "trial_count": 35
+      },
+      {
+        "condition": "Advanced Malignant Solid Tumors",
+        "trial_count": 35
+      },
+      {
+        "condition": "Other Solid Tumors",
+        "trial_count": 30
+      },
+      {
+        "condition": "Malignant Solid Tumors",
+        "trial_count": 27
+      },
+      {
+        "condition": "Advanced/Metastatic Solid Tumors",
+        "trial_count": 25
+      },
+      {
+        "condition": "Solid Tumors, Adult",
+        "trial_count": 23
+      },
+      {
+        "condition": "Advanced Solid Tumors Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Advanced Refractory Solid Tumors",
+        "trial_count": 12
+      },
+      {
+        "condition": "Pediatric Solid Tumors",
+        "trial_count": 11
+      },
+      {
+        "condition": "Locally Advanced Solid Tumors",
+        "trial_count": 10
+      },
+      {
+        "condition": "Cancer (Solid Tumors)",
+        "trial_count": 10
+      },
+      {
+        "condition": "Solid Tumors Harboring Ntrk Fusion",
+        "trial_count": 9
+      },
+      {
+        "condition": "Relapsed Solid Tumors",
+        "trial_count": 8
+      },
+      {
+        "condition": "Locally Advanced/Metastatic Solid Tumors",
+        "trial_count": 8
+      },
+      {
+        "condition": "Brain Metastases From Solid Tumors",
+        "trial_count": 7
+      },
+      {
+        "condition": "Solid Tumors (Phase 1)",
+        "trial_count": 7
+      },
+      {
+        "condition": "Patients With Advanced Solid Tumors",
+        "trial_count": 7
+      },
+      {
+        "condition": "Recurrent Solid Tumors",
+        "trial_count": 7
+      },
+      {
+        "condition": "Select Advanced Solid Tumors",
+        "trial_count": 6
+      },
+      {
+        "condition": "Solid Tumors And Hematologic Malignancy",
+        "trial_count": 6
+      },
+      {
+        "condition": "Recurrent Or Metastatic Solid Tumors",
+        "trial_count": 5
+      },
+      {
+        "condition": "Advanced Or Recurrent Solid Tumors",
+        "trial_count": 5
+      },
+      {
+        "condition": "Mismatch Repair Deficient Or Msi-High Solid Tumors",
+        "trial_count": 4
+      },
+      {
+        "condition": "Mesothelin-Positive Advanced Malignant Solid Tumors",
+        "trial_count": 4
+      },
+      {
+        "condition": "Her2-Positive Solid Tumors",
+        "trial_count": 4
+      },
+      {
+        "condition": "Bone Metastases From Solid Tumors",
+        "trial_count": 4
+      }
+    ]
+  },
+  "Chronic Lymphocytic Leukemia": {
+    "trial_count": 738,
+    "subtypes": [
+      {
+        "condition": "Refractory Chronic Lymphocytic Leukemia",
+        "trial_count": 158
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia (Cll)",
+        "trial_count": 97
+      },
+      {
+        "condition": "B-Cell Chronic Lymphocytic Leukemia",
+        "trial_count": 56
+      },
+      {
+        "condition": "Recurrent Chronic Lymphocytic Leukemia",
+        "trial_count": 54
+      },
+      {
+        "condition": "Stage Iv Chronic Lymphocytic Leukemia",
+        "trial_count": 53
+      },
+      {
+        "condition": "Stage Iii Chronic Lymphocytic Leukemia",
+        "trial_count": 52
+      },
+      {
+        "condition": "Stage I Chronic Lymphocytic Leukemia",
+        "trial_count": 34
+      },
+      {
+        "condition": "Stage Ii Chronic Lymphocytic Leukemia",
+        "trial_count": 33
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+        "trial_count": 24
+      },
+      {
+        "condition": "Refractory Transformed Chronic Lymphocytic Leukemia",
+        "trial_count": 12
+      },
+      {
+        "condition": "Recurrent Transformed Chronic Lymphocytic Leukemia",
+        "trial_count": 12
+      },
+      {
+        "condition": "Cll (Chronic Lymphocytic Leukemia)",
+        "trial_count": 12
+      },
+      {
+        "condition": "Relapsed Chronic Lymphocytic Leukemia",
+        "trial_count": 11
+      },
+      {
+        "condition": "Stage 0 Chronic Lymphocytic Leukemia",
+        "trial_count": 11
+      },
+      {
+        "condition": "Relapsed Or Refractory Chronic Lymphocytic Leukemia",
+        "trial_count": 7
+      },
+      {
+        "condition": "Relapsed/Refractory Chronic Lymphocytic Leukemia",
+        "trial_count": 5
+      },
+      {
+        "condition": "Transformed Chronic Lymphocytic Leukemia To Diffuse Large B-Cell Lymphoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia (Cll) / Small Lymphocytic Lymphoma (Sll)",
+        "trial_count": 4
+      },
+      {
+        "condition": "Recurrent Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Untreated Chronic Lymphocytic Leukemia",
+        "trial_count": 4
+      },
+      {
+        "condition": "B Cell Chronic Lymphocytic Leukemia",
+        "trial_count": 4
+      },
+      {
+        "condition": "Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "T-Cell Chronic Lymphocytic Leukemia",
+        "trial_count": 3
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia Stage A(0)",
+        "trial_count": 3
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia Stage A(I)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia Stage A(Ii)",
+        "trial_count": 2
+      },
+      {
+        "condition": "B-Cell Chronic Lymphocytic Leukemia In Relapse (Diagnosis)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (Cll/Sll)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Relapsed/Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Chronic Lymphocytic Leukemia Or Small Lymphocytic Lymphoma",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Carcinoma, Non-Small-Cell Lung": {
+    "trial_count": 669,
+    "subtypes": [
+      {
+        "condition": "Carcinoma, Non-Small-Cell Lung (Nsclc)",
+        "trial_count": 7
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer (Mesh Term: Carcinoma, Non-Small-Cell Lung)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Carcinoma, Non-Small-Cell Lung Cancer (Nsclc)",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Acute Lymphoblastic Leukemia": {
+    "trial_count": 645,
+    "subtypes": [
+      {
+        "condition": "Recurrent Adult Acute Lymphoblastic Leukemia",
+        "trial_count": 108
+      },
+      {
+        "condition": "B-Cell Acute Lymphoblastic Leukemia",
+        "trial_count": 87
+      },
+      {
+        "condition": "Recurrent Childhood Acute Lymphoblastic Leukemia",
+        "trial_count": 73
+      },
+      {
+        "condition": "Acute Lymphoblastic Leukemia (All)",
+        "trial_count": 54
+      },
+      {
+        "condition": "Refractory Acute Lymphoblastic Leukemia",
+        "trial_count": 54
+      },
+      {
+        "condition": "Adult Acute Lymphoblastic Leukemia In Remission",
+        "trial_count": 52
+      },
+      {
+        "condition": "Childhood Acute Lymphoblastic Leukemia In Remission",
+        "trial_count": 42
+      },
+      {
+        "condition": "B Acute Lymphoblastic Leukemia",
+        "trial_count": 38
+      },
+      {
+        "condition": "Acute Lymphoblastic Leukemia, In Relapse",
+        "trial_count": 37
+      },
+      {
+        "condition": "Recurrent Acute Lymphoblastic Leukemia",
+        "trial_count": 35
+      },
+      {
+        "condition": "Acute Lymphoblastic Leukemia, Pediatric",
+        "trial_count": 34
+      },
+      {
+        "condition": "Untreated Adult Acute Lymphoblastic Leukemia",
+        "trial_count": 27
+      },
+      {
+        "condition": "Recurrent B Acute Lymphoblastic Leukemia",
+        "trial_count": 27
+      },
+      {
+        "condition": "T-Cell Acute Lymphoblastic Leukemia",
+        "trial_count": 26
+      },
+      {
+        "condition": "Refractory B Acute Lymphoblastic Leukemia",
+        "trial_count": 25
+      },
+      {
+        "condition": "Acute Lymphoblastic Leukemia In Remission",
+        "trial_count": 23
+      },
+      {
+        "condition": "B-Cell Adult Acute Lymphoblastic Leukemia",
+        "trial_count": 22
+      },
+      {
+        "condition": "Childhood Acute Lymphoblastic Leukemia",
+        "trial_count": 21
+      },
+      {
+        "condition": "Acute Lymphoblastic Leukemia, Adult",
+        "trial_count": 20
+      },
+      {
+        "condition": "Acute Lymphoblastic Leukemia All",
+        "trial_count": 16
+      },
+      {
+        "condition": "T Acute Lymphoblastic Leukemia",
+        "trial_count": 16
+      },
+      {
+        "condition": "B-Cell Childhood Acute Lymphoblastic Leukemia",
+        "trial_count": 15
+      },
+      {
+        "condition": "Untreated Childhood Acute Lymphoblastic Leukemia",
+        "trial_count": 13
+      },
+      {
+        "condition": "Adult B Acute Lymphoblastic Leukemia",
+        "trial_count": 13
+      },
+      {
+        "condition": "T-Cell Adult Acute Lymphoblastic Leukemia",
+        "trial_count": 11
+      },
+      {
+        "condition": "T-Cell Childhood Acute Lymphoblastic Leukemia",
+        "trial_count": 11
+      },
+      {
+        "condition": "B Acute Lymphoblastic Leukemia With T(9;22)(Q34.1;Q11.2); Bcr-Abl1",
+        "trial_count": 11
+      },
+      {
+        "condition": "Acute Lymphoblastic Leukemia With Failed Remission",
+        "trial_count": 10
+      },
+      {
+        "condition": "B Acute Lymphoblastic Leukemia, Philadelphia Chromosome Negative",
+        "trial_count": 9
+      },
+      {
+        "condition": "B-Cell Acute Lymphoblastic Leukemia, Adult",
+        "trial_count": 9
+      }
+    ]
+  },
+  "Colorectal Neoplasms": {
+    "trial_count": 639,
+    "subtypes": [
+      {
+        "condition": "Colorectal Neoplasms Malignant",
+        "trial_count": 31
+      },
+      {
+        "condition": "Colorectal Neoplasms, Hereditary Nonpolyposis",
+        "trial_count": 7
+      },
+      {
+        "condition": "Colonic Polyps/Colonoscopy/Colorectal Neoplasms",
+        "trial_count": 2
+      },
+      {
+        "condition": "Colorectal Neoplasms, Benign",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Liver Cancer": {
+    "trial_count": 637,
+    "subtypes": [
+      {
+        "condition": "Primary Liver Cancer",
+        "trial_count": 41
+      },
+      {
+        "condition": "Advanced Adult Primary Liver Cancer",
+        "trial_count": 41
+      },
+      {
+        "condition": "Recurrent Adult Primary Liver Cancer",
+        "trial_count": 35
+      },
+      {
+        "condition": "Localized Unresectable Adult Primary Liver Cancer",
+        "trial_count": 34
+      },
+      {
+        "condition": "Metastatic Liver Cancer",
+        "trial_count": 31
+      },
+      {
+        "condition": "Liver Cancer, Adult",
+        "trial_count": 23
+      },
+      {
+        "condition": "Advanced Liver Cancer",
+        "trial_count": 10
+      },
+      {
+        "condition": "Recurrent Childhood Liver Cancer",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iv Liver Cancer",
+        "trial_count": 7
+      },
+      {
+        "condition": "Liver Cancer (Primary And Metastatic)",
+        "trial_count": 6
+      },
+      {
+        "condition": "Localized Resectable Adult Primary Liver Cancer",
+        "trial_count": 6
+      },
+      {
+        "condition": "Secondary Liver Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iva Liver Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Ivb Liver Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iii Liver Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Advanced Primary Liver Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Primary Liver Cancers",
+        "trial_count": 4
+      },
+      {
+        "condition": "Adult Primary Liver Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Unresectable Liver Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Liver Cancer (Locally Advanced Or Metastatic)",
+        "trial_count": 3
+      },
+      {
+        "condition": "Liver Cancer Stage Iv",
+        "trial_count": 3
+      },
+      {
+        "condition": "Liver Cancer Adult",
+        "trial_count": 3
+      },
+      {
+        "condition": "Advanced Liver Cancers",
+        "trial_count": 3
+      },
+      {
+        "condition": "Metastatic Liver Cancers",
+        "trial_count": 2
+      },
+      {
+        "condition": "Childhood Liver Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage I Childhood Liver Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage Iii Childhood Liver Cancer",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Renal Cell Carcinoma": {
+    "trial_count": 632,
+    "subtypes": [
+      {
+        "condition": "Metastatic Renal Cell Carcinoma",
+        "trial_count": 187
+      },
+      {
+        "condition": "Clear Cell Renal Cell Carcinoma",
+        "trial_count": 148
+      },
+      {
+        "condition": "Advanced Renal Cell Carcinoma",
+        "trial_count": 62
+      },
+      {
+        "condition": "Renal Cell Carcinoma (Rcc)",
+        "trial_count": 54
+      },
+      {
+        "condition": "Recurrent Renal Cell Carcinoma",
+        "trial_count": 37
+      },
+      {
+        "condition": "Metastatic Clear Cell Renal Cell Carcinoma",
+        "trial_count": 33
+      },
+      {
+        "condition": "Papillary Renal Cell Carcinoma",
+        "trial_count": 21
+      },
+      {
+        "condition": "Renal Cell Carcinoma (Kidney Cancer)",
+        "trial_count": 19
+      },
+      {
+        "condition": "Advanced Clear Cell Renal Cell Carcinoma",
+        "trial_count": 18
+      },
+      {
+        "condition": "Clear-Cell Metastatic Renal Cell Carcinoma",
+        "trial_count": 17
+      },
+      {
+        "condition": "Chromophobe Renal Cell Carcinoma",
+        "trial_count": 14
+      },
+      {
+        "condition": "Sarcomatoid Renal Cell Carcinoma",
+        "trial_count": 14
+      },
+      {
+        "condition": "Renal Cell Carcinoma Metastatic",
+        "trial_count": 13
+      },
+      {
+        "condition": "Clear Cell Renal Cell Carcinoma (Ccrcc)",
+        "trial_count": 13
+      },
+      {
+        "condition": "Unresectable Renal Cell Carcinoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Clear Cell Renal Cell Carcinoma Metastatic",
+        "trial_count": 6
+      },
+      {
+        "condition": "Type 1 Papillary Renal Cell Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Type 2 Papillary Renal Cell Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Metastatic Sarcomatoid Renal Cell Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Metastatic Renal Cell Carcinoma (Mrcc)",
+        "trial_count": 6
+      },
+      {
+        "condition": "Renal Cell Carcinoma, Metastatic",
+        "trial_count": 5
+      },
+      {
+        "condition": "Translocation Renal Cell Carcinoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Advanced Sarcomatoid Renal Cell Carcinoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Unclassified Renal Cell Carcinoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Refractory Renal Cell Carcinoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Metastatic Renal Cell Carcinoma ( Mrcc)",
+        "trial_count": 5
+      },
+      {
+        "condition": "Locally Advanced Renal Cell Carcinoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Renal Cell Carcinoma, Clear Cell",
+        "trial_count": 4
+      },
+      {
+        "condition": "Advanced Renal Cell Carcinoma (Arcc)",
+        "trial_count": 4
+      },
+      {
+        "condition": "Metastatic Papillary Renal Cell Carcinoma",
+        "trial_count": 4
+      }
+    ]
+  },
+  "Metastatic Cancer": {
+    "trial_count": 618,
+    "subtypes": [
+      {
+        "condition": "Metastatic Cancers",
+        "trial_count": 12
+      },
+      {
+        "condition": "Metastatic Cancer (Different Solid Tumour Types)",
+        "trial_count": 3
+      },
+      {
+        "condition": "Metastatic Cancer Lung",
+        "trial_count": 2
+      },
+      {
+        "condition": "Oligometastatic Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Metastatic Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Solid Tumor Metastatic Cancer Advanced Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Hpv 16+ Recurrent Or Metastatic Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Lung Cancer (Including Metastatic Cancer)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Metastatic Cancer Or Locally Advanced",
+        "trial_count": 2
+      },
+      {
+        "condition": "Gist Metastatic Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Non Metastatic Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Metastatic Cancer To Liver",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Metastatic Colorectal Cancer": {
+    "trial_count": 603,
+    "subtypes": [
+      {
+        "condition": "Metastatic Colorectal Cancer (Crc)",
+        "trial_count": 30
+      },
+      {
+        "condition": "Metastatic Colorectal Cancer (Mcrc)",
+        "trial_count": 23
+      },
+      {
+        "condition": "Refractory Metastatic Colorectal Cancer",
+        "trial_count": 12
+      },
+      {
+        "condition": "Unresectable Metastatic Colorectal Cancer",
+        "trial_count": 11
+      },
+      {
+        "condition": "Microsatellite Stable Metastatic Colorectal Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Advanced/Metastatic Colorectal Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Mss Metastatic Colorectal Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Recurrent Or Metastatic Colorectal Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Braf V600E-Mutant Metastatic Colorectal Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Elderly Metastatic Colorectal Cancer Patients",
+        "trial_count": 3
+      },
+      {
+        "condition": "Unresectable Or Metastatic Colorectal Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Multi-Organ Metastatic Colorectal Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Metastatic Colorectal Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Ras-Mutated Metastatic Colorectal Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Kras Mutant Metastatic Colorectal Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Or Metastatic Colorectal Cancer (Mcrc)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Previously Treated Metastatic Colorectal Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Non-Metastatic Colorectal Cancer",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Advanced Cancer": {
+    "trial_count": 601,
+    "subtypes": [
+      {
+        "condition": "Advanced Cancers",
+        "trial_count": 87
+      },
+      {
+        "condition": "Locally Advanced Cancer",
+        "trial_count": 10
+      },
+      {
+        "condition": "Various Advanced Cancer",
+        "trial_count": 6
+      },
+      {
+        "condition": "Bone Metastases In Subjects With Advanced Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Bone Metastases In Subjects With Advanced Cancer Or Multiple Myeloma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Mesothelin-Expressing Advanced Cancers",
+        "trial_count": 2
+      },
+      {
+        "condition": "Solid Tumor Metastatic Cancer Advanced Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Cancer, Various, Nos",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Glioma": {
+    "trial_count": 516,
+    "subtypes": [
+      {
+        "condition": "Malignant Glioma",
+        "trial_count": 154
+      },
+      {
+        "condition": "High Grade Glioma",
+        "trial_count": 95
+      },
+      {
+        "condition": "Diffuse Intrinsic Pontine Glioma",
+        "trial_count": 79
+      },
+      {
+        "condition": "Glioma, Malignant",
+        "trial_count": 70
+      },
+      {
+        "condition": "Paraganglioma",
+        "trial_count": 65
+      },
+      {
+        "condition": "Oligodendroglioma",
+        "trial_count": 62
+      },
+      {
+        "condition": "Anaplastic Oligodendroglioma",
+        "trial_count": 52
+      },
+      {
+        "condition": "Adult Anaplastic Oligodendroglioma",
+        "trial_count": 35
+      },
+      {
+        "condition": "Recurrent Glioma",
+        "trial_count": 32
+      },
+      {
+        "condition": "High-Grade Glioma",
+        "trial_count": 31
+      },
+      {
+        "condition": "Adult Mixed Glioma",
+        "trial_count": 30
+      },
+      {
+        "condition": "Recurrent Malignant Glioma",
+        "trial_count": 29
+      },
+      {
+        "condition": "Gliomas",
+        "trial_count": 26
+      },
+      {
+        "condition": "Low-Grade Glioma",
+        "trial_count": 25
+      },
+      {
+        "condition": "Diffuse Midline Glioma, H3 K27M-Mutant",
+        "trial_count": 24
+      },
+      {
+        "condition": "Recurrent Childhood Brain Stem Glioma",
+        "trial_count": 22
+      },
+      {
+        "condition": "Glioma Of Brain",
+        "trial_count": 21
+      },
+      {
+        "condition": "Adult Oligodendroglioma",
+        "trial_count": 20
+      },
+      {
+        "condition": "Malignant Gliomas",
+        "trial_count": 19
+      },
+      {
+        "condition": "Low Grade Glioma",
+        "trial_count": 18
+      },
+      {
+        "condition": "Recurrent Childhood Visual Pathway And Hypothalamic Glioma",
+        "trial_count": 17
+      },
+      {
+        "condition": "Who Grade Iii Glioma",
+        "trial_count": 14
+      },
+      {
+        "condition": "Adult Brain Stem Glioma",
+        "trial_count": 14
+      },
+      {
+        "condition": "Malignant Glioma Of Brain",
+        "trial_count": 14
+      },
+      {
+        "condition": "Childhood Oligodendroglioma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Recurrent Childhood Visual Pathway Glioma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Refractory Malignant Glioma",
+        "trial_count": 12
+      },
+      {
+        "condition": "High Grade Gliomas",
+        "trial_count": 11
+      },
+      {
+        "condition": "Diffuse Glioma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Recurrent High-Grade Glioma",
+        "trial_count": 11
+      }
+    ]
+  },
+  "Head And Neck Squamous Cell Carcinoma": {
+    "trial_count": 488,
+    "subtypes": [
+      {
+        "condition": "Recurrent Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 50
+      },
+      {
+        "condition": "Head And Neck Squamous Cell Carcinoma (Hnscc)",
+        "trial_count": 39
+      },
+      {
+        "condition": "Metastatic Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 33
+      },
+      {
+        "condition": "Locally Advanced Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 32
+      },
+      {
+        "condition": "Head And Neck Squamous Cell Carcinoma Hnscc",
+        "trial_count": 14
+      },
+      {
+        "condition": "Advanced Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Unresectable Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Recurrent/Metastatic Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Head And Neck Squamous Cell Carcinomas",
+        "trial_count": 6
+      },
+      {
+        "condition": "Resectable Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Locally Recurrent Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Refractory Head And Neck Squamous Cell Carcinoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Head And Neck Squamous Cell Carcinoma (Hnscc) - Recurrent/Metastatic (R/M)",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Neuroblastoma": {
+    "trial_count": 481,
+    "subtypes": [
+      {
+        "condition": "Recurrent Neuroblastoma",
+        "trial_count": 68
+      },
+      {
+        "condition": "Refractory Neuroblastoma",
+        "trial_count": 38
+      },
+      {
+        "condition": "Relapsed Neuroblastoma",
+        "trial_count": 19
+      },
+      {
+        "condition": "Disseminated Neuroblastoma",
+        "trial_count": 17
+      },
+      {
+        "condition": "Ganglioneuroblastoma",
+        "trial_count": 16
+      },
+      {
+        "condition": "Localized Unresectable Neuroblastoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Regional Neuroblastoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage 4S Neuroblastoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Recurrent Esthesioneuroblastoma Of The Paranasal Sinus And Nasal Cavity",
+        "trial_count": 11
+      },
+      {
+        "condition": "Localized Resectable Neuroblastoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Stage 4 Neuroblastoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Neuroblastoma (Nb)",
+        "trial_count": 9
+      },
+      {
+        "condition": "Neuroblastoma Recurrent",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iv Esthesioneuroblastoma Of The Paranasal Sinus And Nasal Cavity",
+        "trial_count": 7
+      },
+      {
+        "condition": "Esthesioneuroblastoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "High-Risk Neuroblastoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "High Risk Neuroblastoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Ganglioneuroblastoma, Nodular",
+        "trial_count": 4
+      },
+      {
+        "condition": "Neuroblastoma, Recurrent, Refractory",
+        "trial_count": 4
+      },
+      {
+        "condition": "Neuroblastoma In Children",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iii Esthesioneuroblastoma Of The Paranasal Sinus And Nasal Cavity",
+        "trial_count": 4
+      },
+      {
+        "condition": "Olfactory Neuroblastoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Metastatic Olfactory Neuroblastoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Neuroblastoma, Metastatic",
+        "trial_count": 2
+      },
+      {
+        "condition": "Esthesioneuroblastoma, Olfactory",
+        "trial_count": 2
+      },
+      {
+        "condition": "Neuroblastoma (Nbl)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Metastatic Neuroblastoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Relapsed Or Refractory Neuroblastoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Neuroblastoma (Measurable Disease)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage 3 Neuroblastoma",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Myelodysplastic Syndrome": {
+    "trial_count": 464,
+    "subtypes": [
+      {
+        "condition": "Myelodysplastic Syndromes",
+        "trial_count": 760
+      },
+      {
+        "condition": "Previously Treated Myelodysplastic Syndromes",
+        "trial_count": 81
+      },
+      {
+        "condition": "De Novo Myelodysplastic Syndromes",
+        "trial_count": 68
+      },
+      {
+        "condition": "Myelodysplastic Syndrome (Mds)",
+        "trial_count": 64
+      },
+      {
+        "condition": "Secondary Myelodysplastic Syndromes",
+        "trial_count": 59
+      },
+      {
+        "condition": "Acute Myeloid Leukemia Arising From Previous Myelodysplastic Syndrome",
+        "trial_count": 47
+      },
+      {
+        "condition": "Childhood Myelodysplastic Syndromes",
+        "trial_count": 42
+      },
+      {
+        "condition": "Recurrent Myelodysplastic Syndrome",
+        "trial_count": 38
+      },
+      {
+        "condition": "Myelodysplastic Syndromes (Mds)",
+        "trial_count": 35
+      },
+      {
+        "condition": "Refractory Myelodysplastic Syndrome",
+        "trial_count": 33
+      },
+      {
+        "condition": "Previously Treated Myelodysplastic Syndrome",
+        "trial_count": 30
+      },
+      {
+        "condition": "Mds (Myelodysplastic Syndrome)",
+        "trial_count": 21
+      },
+      {
+        "condition": "Acute Myeloid Leukemia With Multilineage Dysplasia Following Myelodysplastic Syndrome",
+        "trial_count": 19
+      },
+      {
+        "condition": "Secondary Myelodysplastic Syndrome",
+        "trial_count": 18
+      },
+      {
+        "condition": "High Risk Myelodysplastic Syndrome",
+        "trial_count": 18
+      },
+      {
+        "condition": "De Novo Myelodysplastic Syndrome",
+        "trial_count": 18
+      },
+      {
+        "condition": "Myelodysplastic Syndrome With Excess Blasts",
+        "trial_count": 16
+      },
+      {
+        "condition": "Therapy-Related Myelodysplastic Syndrome",
+        "trial_count": 12
+      },
+      {
+        "condition": "High-Risk Myelodysplastic Syndrome",
+        "trial_count": 10
+      },
+      {
+        "condition": "Myelodysplastic Syndrome With Excess Blasts-2",
+        "trial_count": 9
+      },
+      {
+        "condition": "Myelodysplastic Syndrome With Isolated Del(5Q)",
+        "trial_count": 9
+      },
+      {
+        "condition": "Myelodysplastic Syndrome/Acute Myeloid Leukemia",
+        "trial_count": 6
+      },
+      {
+        "condition": "Myelodysplastic Syndrome With Excess Blasts-1",
+        "trial_count": 6
+      },
+      {
+        "condition": "Recurrent High Risk Myelodysplastic Syndrome",
+        "trial_count": 6
+      },
+      {
+        "condition": "Myelodysplastic Syndrome(Mds)",
+        "trial_count": 5
+      },
+      {
+        "condition": "Refractory High Risk Myelodysplastic Syndrome",
+        "trial_count": 5
+      },
+      {
+        "condition": "High-Risk Myelodysplastic Syndrome (Mds)",
+        "trial_count": 5
+      },
+      {
+        "condition": "Childhood Myelodysplastic Syndrome",
+        "trial_count": 5
+      },
+      {
+        "condition": "Higher-Risk Myelodysplastic Syndrome",
+        "trial_count": 4
+      },
+      {
+        "condition": "Adult Myelodysplastic Syndrome",
+        "trial_count": 4
+      }
+    ]
+  },
+  "Fallopian Tube Cancer": {
+    "trial_count": 464,
+    "subtypes": [
+      {
+        "condition": "Stage Iv Fallopian Tube Cancer",
+        "trial_count": 24
+      },
+      {
+        "condition": "Stage Iv Fallopian Tube Cancer Ajcc V6 And V7",
+        "trial_count": 21
+      },
+      {
+        "condition": "Stage Iiic Fallopian Tube Cancer",
+        "trial_count": 20
+      },
+      {
+        "condition": "Stage Iiib Fallopian Tube Cancer Ajcc V7",
+        "trial_count": 18
+      },
+      {
+        "condition": "Recurrent Fallopian Tube Cancer",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iiia Fallopian Tube Cancer Ajcc V7",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iv Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iiia Fallopian Tube Cancer",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iiic Fallopian Tube Cancer Ajcc V7",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iiib Fallopian Tube Cancer",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Iii Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 12
+      },
+      {
+        "condition": "Fallopian Tube Cancers",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage Iic Fallopian Tube Cancer Ajcc V6 And V7",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage Iia Fallopian Tube Cancer Ajcc V6 And V7",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage Iib Fallopian Tube Cancer Ajcc V6 And V7",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage Ivb Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iva Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iii Fallopian Tube Cancer Ajcc V7",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iic Fallopian Tube Cancer",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iia Fallopian Tube Cancer",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iib Fallopian Tube Cancer",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iiic Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 7
+      },
+      {
+        "condition": "Stage Iii Fallopian Tube Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Ic Fallopian Tube Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Ib Fallopian Tube Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Ia Fallopian Tube Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iiia Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iiia1 Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iiib Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iiia2 Fallopian Tube Cancer Ajcc V8",
+        "trial_count": 5
+      }
+    ]
+  },
+  "Kidney Cancer": {
+    "trial_count": 461,
+    "subtypes": [
+      {
+        "condition": "Renal Cell Carcinoma (Kidney Cancer)",
+        "trial_count": 19
+      },
+      {
+        "condition": "Metastatic Kidney Cancer",
+        "trial_count": 14
+      },
+      {
+        "condition": "Kidney Cancers",
+        "trial_count": 10
+      },
+      {
+        "condition": "Advanced Kidney Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Kidney Cancer Metastatic",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iv Kidney Cancer",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Nasopharyngeal Carcinoma": {
+    "trial_count": 454,
+    "subtypes": [
+      {
+        "condition": "Nasopharyngeal Carcinoma (Npc)",
+        "trial_count": 43
+      },
+      {
+        "condition": "Recurrent Nasopharyngeal Carcinoma",
+        "trial_count": 27
+      },
+      {
+        "condition": "Locally Advanced Nasopharyngeal Carcinoma",
+        "trial_count": 15
+      },
+      {
+        "condition": "Metastatic Nasopharyngeal Carcinoma",
+        "trial_count": 14
+      },
+      {
+        "condition": "Recurrent Or Metastatic Nasopharyngeal Carcinoma",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iv Nasopharyngeal Carcinoma Ajcc V8",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iii Nasopharyngeal Carcinoma Ajcc V8",
+        "trial_count": 6
+      },
+      {
+        "condition": "Nasopharyngeal Carcinoma By Ajcc V8 Stage",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iv Nasopharyngeal Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iva Nasopharyngeal Carcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Advanced Nasopharyngeal Carcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iii Nasopharyngeal Carcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ii Nasopharyngeal Carcinoma Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ivb Nasopharyngeal Carcinoma Ajcc V7",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Iva Nasopharyngeal Carcinoma Ajcc V7",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Iii Nasopharyngeal Carcinoma Ajcc V7",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Ivb Nasopharyngeal Carcinoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Iva Nasopharyngeal Carcinoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Ii Nasopharyngeal Carcinoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Recurrent And Metastatic Nasopharyngeal Carcinoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Locoregionally Advanced Nasopharyngeal Carcinoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Nasopharyngeal Carcinoma ,Xerostomia,Radiotherapy",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage I Nasopharyngeal Carcinoma Ajcc V8",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage Ivb Nasopharyngeal Carcinoma Ajcc V8",
+        "trial_count": 2
+      },
+      {
+        "condition": "Ebv-Positive Nasopharyngeal Carcinoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage Ivc Nasopharyngeal Carcinoma Ajcc V7",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage Iv Nasopharyngeal Carcinoma Ajcc V7",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage Ivc Nasopharyngeal Carcinoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Otitis Media With Effusion After Nasopharyngeal Carcinoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Local Advanced High Risk Nasopharyngeal Carcinoma",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Triple Negative Breast Cancer": {
+    "trial_count": 442,
+    "subtypes": [
+      {
+        "condition": "Triple Negative Breast Cancer (Tnbc)",
+        "trial_count": 56
+      },
+      {
+        "condition": "Tnbc, Triple Negative Breast Cancer",
+        "trial_count": 17
+      },
+      {
+        "condition": "Metastatic Triple Negative Breast Cancer",
+        "trial_count": 16
+      },
+      {
+        "condition": "Advanced Triple Negative Breast Cancer",
+        "trial_count": 8
+      },
+      {
+        "condition": "Breast Cancer (Triple Negative Breast Cancer (Tnbc))",
+        "trial_count": 4
+      },
+      {
+        "condition": "Metastatic Triple Negative Breast Cancers",
+        "trial_count": 4
+      },
+      {
+        "condition": "Triple Negative Breast Cancer Metastatic",
+        "trial_count": 3
+      },
+      {
+        "condition": "Triple Negative Breast Cancer (Tnbc), Early Setting",
+        "trial_count": 3
+      },
+      {
+        "condition": "Triple Negative Breast Cancer Tnbc",
+        "trial_count": 2
+      },
+      {
+        "condition": "Triple Negative Breast Cancer Patients",
+        "trial_count": 2
+      },
+      {
+        "condition": "Early Triple Negative Breast Cancer",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Prostatic Neoplasms": {
+    "trial_count": 435,
+    "subtypes": [
+      {
+        "condition": "Prostatic Neoplasms, Castration-Resistant",
+        "trial_count": 41
+      },
+      {
+        "condition": "Castration Resistant Prostatic Neoplasms",
+        "trial_count": 5
+      }
+    ]
+  },
+  "Glioblastoma Multiforme": {
+    "trial_count": 425,
+    "subtypes": [
+      {
+        "condition": "Glioblastoma Multiforme Of Brain",
+        "trial_count": 25
+      },
+      {
+        "condition": "Glioblastoma Multiforme, Adult",
+        "trial_count": 24
+      },
+      {
+        "condition": "Glioblastoma Multiforme (Gbm)",
+        "trial_count": 22
+      },
+      {
+        "condition": "Recurrent Glioblastoma Multiforme",
+        "trial_count": 20
+      },
+      {
+        "condition": "Glioma Glioblastoma Multiforme",
+        "trial_count": 10
+      },
+      {
+        "condition": "Recurrent Glioblastoma Multiforme(Gbm)",
+        "trial_count": 3
+      },
+      {
+        "condition": "Recurrent Glioblastoma Multiforme (Gbm)",
+        "trial_count": 3
+      },
+      {
+        "condition": "Recurrent Glioma (Glioblastoma Multiforme)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Glioblastoma Multiforme (Gbm) Who Grade Iv",
+        "trial_count": 2
+      },
+      {
+        "condition": "Glioblastoma Multiforme Glioma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Newly Diagnosed Glioblastoma Multiforme",
+        "trial_count": 2
+      },
+      {
+        "condition": "Glioblastoma Multiforme Of The Brain",
+        "trial_count": 2
+      },
+      {
+        "condition": "Pediatric Glioblastoma Multiforme",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Brain And Central Nervous System Tumors": {
+    "trial_count": 418,
+    "subtypes": []
+  },
+  "Cholangiocarcinoma": {
+    "trial_count": 407,
+    "subtypes": [
+      {
+        "condition": "Intrahepatic Cholangiocarcinoma",
+        "trial_count": 124
+      },
+      {
+        "condition": "Intrahepatic Cholangiocarcinoma (Icc)",
+        "trial_count": 27
+      },
+      {
+        "condition": "Hilar Cholangiocarcinoma",
+        "trial_count": 26
+      },
+      {
+        "condition": "Cholangiocarcinoma, Intrahepatic",
+        "trial_count": 20
+      },
+      {
+        "condition": "Cholangiocarcinoma Of The Extrahepatic Bile Duct",
+        "trial_count": 19
+      },
+      {
+        "condition": "Cholangiocarcinoma Non-Resectable",
+        "trial_count": 18
+      },
+      {
+        "condition": "Perihilar Cholangiocarcinoma",
+        "trial_count": 17
+      },
+      {
+        "condition": "Advanced Cholangiocarcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Extrahepatic Cholangiocarcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Stage Iv Intrahepatic Cholangiocarcinoma Ajcc V8",
+        "trial_count": 12
+      },
+      {
+        "condition": "Stage Iii Intrahepatic Cholangiocarcinoma Ajcc V8",
+        "trial_count": 12
+      },
+      {
+        "condition": "Cholangiocarcinoma Of The Gallbladder",
+        "trial_count": 11
+      },
+      {
+        "condition": "Metastatic Cholangiocarcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Cholangiocarcinoma, Extrahepatic",
+        "trial_count": 8
+      },
+      {
+        "condition": "Unresectable Intrahepatic Cholangiocarcinoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Cholangiocarcinoma, Perihilar",
+        "trial_count": 7
+      },
+      {
+        "condition": "Cholangiocarcinoma Resectable",
+        "trial_count": 6
+      },
+      {
+        "condition": "Cholangiocarcinoma Cancer",
+        "trial_count": 6
+      },
+      {
+        "condition": "Distal Cholangiocarcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Unresectable Cholangiocarcinoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iiib Intrahepatic Cholangiocarcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Iiia Intrahepatic Cholangiocarcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Recurrent Cholangiocarcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Advanced Intrahepatic Cholangiocarcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Cholangiocarcinoma Metastatic",
+        "trial_count": 4
+      },
+      {
+        "condition": "Cholangiocarcinoma, Hilar",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iii Intrahepatic Cholangiocarcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iva Intrahepatic Cholangiocarcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ivb Intrahepatic Cholangiocarcinoma Ajcc V7",
+        "trial_count": 3
+      },
+      {
+        "condition": "Stage Iva Intrahepatic Cholangiocarcinoma Ajcc V7",
+        "trial_count": 3
+      }
+    ]
+  },
+  "Thyroid Cancer": {
+    "trial_count": 401,
+    "subtypes": [
+      {
+        "condition": "Differentiated Thyroid Cancer",
+        "trial_count": 58
+      },
+      {
+        "condition": "Papillary Thyroid Cancer",
+        "trial_count": 52
+      },
+      {
+        "condition": "Medullary Thyroid Cancer",
+        "trial_count": 39
+      },
+      {
+        "condition": "Anaplastic Thyroid Cancer",
+        "trial_count": 33
+      },
+      {
+        "condition": "Thyroid Cancer, Papillary",
+        "trial_count": 19
+      },
+      {
+        "condition": "Recurrent Thyroid Cancer",
+        "trial_count": 17
+      },
+      {
+        "condition": "Follicular Thyroid Cancer",
+        "trial_count": 13
+      },
+      {
+        "condition": "Differentiated Thyroid Cancer (Dtc)",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iv Papillary Thyroid Cancer",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iv Follicular Thyroid Cancer",
+        "trial_count": 6
+      },
+      {
+        "condition": "Insular Thyroid Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Thyroid Cancer, Medullary",
+        "trial_count": 5
+      },
+      {
+        "condition": "Medullary Thyroid Cancer (Mtc)",
+        "trial_count": 5
+      },
+      {
+        "condition": "Metastatic Thyroid Cancer",
+        "trial_count": 5
+      },
+      {
+        "condition": "Parathyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Thyroid Cancer Stage Iv",
+        "trial_count": 4
+      },
+      {
+        "condition": "Thyroid Cancer, Follicular",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ii Papillary Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ivc Papillary Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Metastatic Medullary Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ivc Follicular Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ivb Papillary Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iii Papillary Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ivb Follicular Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iva Papillary Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iva Follicular Thyroid Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iii Follicular Thyroid Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Dtc - Differentiated Thyroid Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Metastatic Anaplastic Thyroid Cancer",
+        "trial_count": 3
+      },
+      {
+        "condition": "Thyroid Cancer Patients",
+        "trial_count": 3
+      }
+    ]
+  },
+  "Breast Cancer Female": {
+    "trial_count": 391,
+    "subtypes": [
+      {
+        "condition": "Breast Cancer Females",
+        "trial_count": 23
+      },
+      {
+        "condition": "Breast Cancer Female Nos",
+        "trial_count": 6
+      }
+    ]
+  },
+  "Small Cell Lung Cancer": {
+    "trial_count": 379,
+    "subtypes": [
+      {
+        "condition": "Non-Small Cell Lung Cancer",
+        "trial_count": 1153
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer (Nsclc)",
+        "trial_count": 139
+      },
+      {
+        "condition": "Stage Iv Non-Small Cell Lung Cancer",
+        "trial_count": 115
+      },
+      {
+        "condition": "Recurrent Non-Small Cell Lung Cancer",
+        "trial_count": 88
+      },
+      {
+        "condition": "Stage Iiib Non-Small Cell Lung Cancer",
+        "trial_count": 79
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Metastatic",
+        "trial_count": 66
+      },
+      {
+        "condition": "Non-Squamous Non-Small Cell Lung Cancer",
+        "trial_count": 58
+      },
+      {
+        "condition": "Nonsmall Cell Lung Cancer",
+        "trial_count": 57
+      },
+      {
+        "condition": "Non Small Cell Lung Cancer Metastatic",
+        "trial_count": 54
+      },
+      {
+        "condition": "Extensive Stage Small Cell Lung Cancer",
+        "trial_count": 49
+      },
+      {
+        "condition": "Stage Iiia Non-Small Cell Lung Cancer",
+        "trial_count": 49
+      },
+      {
+        "condition": "Advanced Non-Small Cell Lung Cancer",
+        "trial_count": 48
+      },
+      {
+        "condition": "Nsclc (Advanced Non-Small Cell Lung Cancer)",
+        "trial_count": 46
+      },
+      {
+        "condition": "Nsclc (Non-Small Cell Lung Cancer)",
+        "trial_count": 46
+      },
+      {
+        "condition": "Non Small Cell Lung Cancer (Nsclc)",
+        "trial_count": 38
+      },
+      {
+        "condition": "Small Cell Lung Cancer Extensive Stage",
+        "trial_count": 38
+      },
+      {
+        "condition": "Small Cell Lung Cancer (Sclc)",
+        "trial_count": 33
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Stage Iii",
+        "trial_count": 32
+      },
+      {
+        "condition": "Metastatic Non Small Cell Lung Cancer",
+        "trial_count": 32
+      },
+      {
+        "condition": "Metastatic Non-Small Cell Lung Cancer",
+        "trial_count": 30
+      },
+      {
+        "condition": "Extensive-Stage Small Cell Lung Cancer",
+        "trial_count": 30
+      },
+      {
+        "condition": "Recurrent Small Cell Lung Cancer",
+        "trial_count": 28
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Stage Iv",
+        "trial_count": 25
+      },
+      {
+        "condition": "Advanced Non Small Cell Lung Cancer",
+        "trial_count": 25
+      },
+      {
+        "condition": "Limited Stage Small Cell Lung Cancer",
+        "trial_count": 23
+      },
+      {
+        "condition": "Non-Small Cell Lung Cancer Stage I",
+        "trial_count": 22
+      },
+      {
+        "condition": "Egf-R Positive Non-Small Cell Lung Cancer",
+        "trial_count": 21
+      },
+      {
+        "condition": "Egfr Positive Non-Small Cell Lung Cancer",
+        "trial_count": 20
+      },
+      {
+        "condition": "Stage Iii Non-Small Cell Lung Cancer",
+        "trial_count": 19
+      },
+      {
+        "condition": "Stage Iv Non-Small Cell Lung Cancer Ajcc V7",
+        "trial_count": 18
+      }
+    ]
+  },
+  "Metastatic Melanoma": {
+    "trial_count": 358,
+    "subtypes": [
+      {
+        "condition": "Unresectable Or Metastatic Melanoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Advanced Or Metastatic Melanoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Cutaneous Metastatic Melanoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Locally Advanced Or Metastatic Melanoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Metastatic Melanoma, Braf V600 Mutation Positive",
+        "trial_count": 2
+      },
+      {
+        "condition": "Recurrent Metastatic Melanoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Malignant Metastatic Melanoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Advanced Metastatic Melanoma",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Neuroendocrine Tumors": {
+    "trial_count": 357,
+    "subtypes": [
+      {
+        "condition": "Pancreatic Neuroendocrine Tumors",
+        "trial_count": 15
+      },
+      {
+        "condition": "Gastroenteropancreatic Neuroendocrine Tumors",
+        "trial_count": 11
+      },
+      {
+        "condition": "Pancreatic Neuroendocrine Tumors (Pnet)",
+        "trial_count": 5
+      },
+      {
+        "condition": "Gastrointestinal Neuroendocrine Tumors",
+        "trial_count": 5
+      },
+      {
+        "condition": "Metastatic Neuroendocrine Tumors",
+        "trial_count": 3
+      },
+      {
+        "condition": "Neuroendocrine Tumors, Net",
+        "trial_count": 3
+      }
+    ]
+  },
+  "Melanoma (Skin)": {
+    "trial_count": 351,
+    "subtypes": [
+      {
+        "condition": "Melanoma (Skin) Stage Iv",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Brain Tumor": {
+    "trial_count": 349,
+    "subtypes": [
+      {
+        "condition": "Brain Tumors",
+        "trial_count": 111
+      },
+      {
+        "condition": "Recurrent Adult Brain Tumor",
+        "trial_count": 52
+      },
+      {
+        "condition": "Brain Tumor Adult",
+        "trial_count": 41
+      },
+      {
+        "condition": "Pediatric Brain Tumor",
+        "trial_count": 33
+      },
+      {
+        "condition": "Brain Tumor, Primary",
+        "trial_count": 33
+      },
+      {
+        "condition": "Brain Tumor, Recurrent",
+        "trial_count": 32
+      },
+      {
+        "condition": "Primary Brain Tumor",
+        "trial_count": 32
+      },
+      {
+        "condition": "Brain Tumor, Pediatric",
+        "trial_count": 22
+      },
+      {
+        "condition": "Malignant Brain Tumor",
+        "trial_count": 16
+      },
+      {
+        "condition": "Supratentorial Brain Tumor",
+        "trial_count": 14
+      },
+      {
+        "condition": "Childhood Brain Tumor",
+        "trial_count": 12
+      },
+      {
+        "condition": "Metastatic Brain Tumor",
+        "trial_count": 11
+      },
+      {
+        "condition": "Adult Brain Tumor",
+        "trial_count": 10
+      },
+      {
+        "condition": "Malignant Brain Tumors",
+        "trial_count": 9
+      },
+      {
+        "condition": "Brain Tumor - Metastatic",
+        "trial_count": 9
+      },
+      {
+        "condition": "Recurrent Childhood Brain Tumor",
+        "trial_count": 9
+      },
+      {
+        "condition": "Primary Brain Tumors",
+        "trial_count": 7
+      },
+      {
+        "condition": "Dipg Brain Tumor",
+        "trial_count": 6
+      },
+      {
+        "condition": "Pediatric Brain Tumors",
+        "trial_count": 5
+      },
+      {
+        "condition": "Recurrent Brain Tumor",
+        "trial_count": 5
+      },
+      {
+        "condition": "Primary Malignant Brain Tumors",
+        "trial_count": 4
+      },
+      {
+        "condition": "Benign Brain Tumor",
+        "trial_count": 4
+      },
+      {
+        "condition": "Brain Tumor, Adult: Glioblastoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Recurrent Brain Tumor, Childhood",
+        "trial_count": 3
+      },
+      {
+        "condition": "Brain Tumor Recurrent",
+        "trial_count": 3
+      },
+      {
+        "condition": "Brain Tumor Benign",
+        "trial_count": 3
+      },
+      {
+        "condition": "Childhood Brain Tumors",
+        "trial_count": 3
+      },
+      {
+        "condition": "Brain Tumor Related Epilepsy (Btre)",
+        "trial_count": 2
+      },
+      {
+        "condition": "Brain Tumors And/Or Solid Tumors Including",
+        "trial_count": 2
+      },
+      {
+        "condition": "Brain Tumor-Glioma",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Urothelial Carcinoma": {
+    "trial_count": 348,
+    "subtypes": [
+      {
+        "condition": "Metastatic Urothelial Carcinoma",
+        "trial_count": 68
+      },
+      {
+        "condition": "Urothelial Carcinoma Bladder",
+        "trial_count": 43
+      },
+      {
+        "condition": "Bladder Urothelial Carcinoma",
+        "trial_count": 41
+      },
+      {
+        "condition": "Advanced Urothelial Carcinoma",
+        "trial_count": 29
+      },
+      {
+        "condition": "Upper Tract Urothelial Carcinoma",
+        "trial_count": 22
+      },
+      {
+        "condition": "Locally Advanced Urothelial Carcinoma",
+        "trial_count": 21
+      },
+      {
+        "condition": "Metastatic Bladder Urothelial Carcinoma",
+        "trial_count": 17
+      },
+      {
+        "condition": "Urothelial Carcinoma (Uc)",
+        "trial_count": 16
+      },
+      {
+        "condition": "Non-Muscle Invasive Bladder Urothelial Carcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Unresectable Urothelial Carcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Urothelial Carcinoma Recurrent",
+        "trial_count": 12
+      },
+      {
+        "condition": "Upper Urinary Tract Urothelial Carcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Metastatic Ureter Urothelial Carcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Metastatic Urethral Urothelial Carcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Muscle Invasive Bladder Urothelial Carcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Metastatic Renal Pelvis Urothelial Carcinoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Locally Advanced Bladder Urothelial Carcinoma",
+        "trial_count": 9
+      },
+      {
+        "condition": "Infiltrating Bladder Urothelial Carcinoma",
+        "trial_count": 9
+      },
+      {
+        "condition": "Urothelial Carcinoma Of The Renal Pelvis And Ureter",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iv Bladder Urothelial Carcinoma Ajcc V7",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iii Bladder Urothelial Carcinoma Ajcc V6 And V7",
+        "trial_count": 8
+      },
+      {
+        "condition": "Recurrent Bladder Urothelial Carcinoma",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Ii Bladder Urothelial Carcinoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Urothelial Carcinoma Ureter",
+        "trial_count": 7
+      },
+      {
+        "condition": "Locally Advanced Ureter Urothelial Carcinoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Locally Advanced Or Metastatic Urothelial Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Locally Advanced Renal Pelvis Urothelial Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Locally Advanced Urethral Urothelial Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iv Bladder Urothelial Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Ii Bladder Urothelial Carcinoma Ajcc V6 And V7",
+        "trial_count": 5
+      }
+    ]
+  },
+  "Follicular Lymphoma": {
+    "trial_count": 340,
+    "subtypes": [
+      {
+        "condition": "Recurrent Grade 1 Follicular Lymphoma",
+        "trial_count": 152
+      },
+      {
+        "condition": "Recurrent Grade 2 Follicular Lymphoma",
+        "trial_count": 152
+      },
+      {
+        "condition": "Recurrent Grade 3 Follicular Lymphoma",
+        "trial_count": 132
+      },
+      {
+        "condition": "Stage Iv Grade 2 Follicular Lymphoma",
+        "trial_count": 61
+      },
+      {
+        "condition": "Stage Iv Grade 1 Follicular Lymphoma",
+        "trial_count": 61
+      },
+      {
+        "condition": "Stage Iv Grade 3 Follicular Lymphoma",
+        "trial_count": 59
+      },
+      {
+        "condition": "Stage Iii Grade 1 Follicular Lymphoma",
+        "trial_count": 53
+      },
+      {
+        "condition": "Stage Iii Grade 2 Follicular Lymphoma",
+        "trial_count": 53
+      },
+      {
+        "condition": "Stage Iii Grade 3 Follicular Lymphoma",
+        "trial_count": 51
+      },
+      {
+        "condition": "Refractory Follicular Lymphoma",
+        "trial_count": 46
+      },
+      {
+        "condition": "Recurrent Follicular Lymphoma",
+        "trial_count": 43
+      },
+      {
+        "condition": "Follicular Lymphoma (Fl)",
+        "trial_count": 34
+      },
+      {
+        "condition": "Noncontiguous Stage Ii Grade 2 Follicular Lymphoma",
+        "trial_count": 29
+      },
+      {
+        "condition": "Noncontiguous Stage Ii Grade 1 Follicular Lymphoma",
+        "trial_count": 29
+      },
+      {
+        "condition": "Noncontiguous Stage Ii Grade 3 Follicular Lymphoma",
+        "trial_count": 27
+      },
+      {
+        "condition": "Stage I Grade 2 Follicular Lymphoma",
+        "trial_count": 21
+      },
+      {
+        "condition": "Stage I Grade 1 Follicular Lymphoma",
+        "trial_count": 21
+      },
+      {
+        "condition": "Grade 3A Follicular Lymphoma",
+        "trial_count": 21
+      },
+      {
+        "condition": "Contiguous Stage Ii Grade 1 Follicular Lymphoma",
+        "trial_count": 20
+      },
+      {
+        "condition": "Contiguous Stage Ii Grade 2 Follicular Lymphoma",
+        "trial_count": 20
+      },
+      {
+        "condition": "Stage I Grade 3 Follicular Lymphoma",
+        "trial_count": 19
+      },
+      {
+        "condition": "Grade 2 Follicular Lymphoma",
+        "trial_count": 19
+      },
+      {
+        "condition": "Grade 1 Follicular Lymphoma",
+        "trial_count": 19
+      },
+      {
+        "condition": "Contiguous Stage Ii Grade 3 Follicular Lymphoma",
+        "trial_count": 18
+      },
+      {
+        "condition": "Refractory Transformed Follicular Lymphoma To Diffuse Large B-Cell Lymphoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Recurrent Grade 3A Follicular Lymphoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Recurrent Grade 3B Follicular Lymphoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Refractory Grade 3B Follicular Lymphoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Relapsed/Refractory Follicular Lymphoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Follicular Lymphoma Grade 3B",
+        "trial_count": 11
+      }
+    ]
+  },
+  "Lung Neoplasms": {
+    "trial_count": 334,
+    "subtypes": [
+      {
+        "condition": "Lung Neoplasms, Non-Small Cell Lung Cancer",
+        "trial_count": 3
+      }
+    ]
+  },
+  "Mantle Cell Lymphoma": {
+    "trial_count": 333,
+    "subtypes": [
+      {
+        "condition": "Recurrent Mantle Cell Lymphoma",
+        "trial_count": 197
+      },
+      {
+        "condition": "Stage Iv Mantle Cell Lymphoma",
+        "trial_count": 66
+      },
+      {
+        "condition": "Stage Iii Mantle Cell Lymphoma",
+        "trial_count": 59
+      },
+      {
+        "condition": "Refractory Mantle Cell Lymphoma",
+        "trial_count": 52
+      },
+      {
+        "condition": "Mantle Cell Lymphoma (Mcl)",
+        "trial_count": 41
+      },
+      {
+        "condition": "Noncontiguous Stage Ii Mantle Cell Lymphoma",
+        "trial_count": 34
+      },
+      {
+        "condition": "Stage I Mantle Cell Lymphoma",
+        "trial_count": 25
+      },
+      {
+        "condition": "Contiguous Stage Ii Mantle Cell Lymphoma",
+        "trial_count": 25
+      },
+      {
+        "condition": "Relapsed/Refractory Mantle Cell Lymphoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Mantle Cell Lymphoma Recurrent",
+        "trial_count": 5
+      },
+      {
+        "condition": "Mantle Cell Lymphoma Refractory",
+        "trial_count": 5
+      },
+      {
+        "condition": "Blastoid Variant Mantle Cell Lymphoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Pleomorphic Variant Mantle Cell Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Ann Arbor Stage Ii Mantle Cell Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Ann Arbor Stage Iii Mantle Cell Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Ann Arbor Stage Iv Mantle Cell Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Relapsed Or Refractory Mantle Cell Lymphoma (Mcl)",
+        "trial_count": 3
+      },
+      {
+        "condition": "Relapsed Mantle Cell Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Ann Arbor Stage I Mantle Cell Lymphoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage Ii Contiguous Mantle Cell Lymphoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Stage Ii Non-Contiguous Mantle Cell Lymphoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Untreated Mantle Cell Lymphoma",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Non-Hodgkin'S Lymphoma": {
+    "trial_count": 324,
+    "subtypes": [
+      {
+        "condition": "Non-Hodgkin'S Lymphoma (Nhl)",
+        "trial_count": 16
+      },
+      {
+        "condition": "B-Cell Non-Hodgkin'S Lymphoma",
+        "trial_count": 16
+      },
+      {
+        "condition": "Non-Hodgkin'S Lymphoma, Relapsed",
+        "trial_count": 9
+      },
+      {
+        "condition": "Indolent Non-Hodgkin'S Lymphoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Non-Hodgkin'S Lymphoma Refractory",
+        "trial_count": 7
+      },
+      {
+        "condition": "B Cell Non-Hodgkin'S Lymphoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Relapsed Or Refractory B-Cell Non-Hodgkin'S Lymphoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Relapsed Or Refractory Non-Hodgkin'S Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "B-Cell Non-Hodgkin'S Lymphoma (B-Nhl)",
+        "trial_count": 3
+      },
+      {
+        "condition": "Relapsed/Refractory B-Cell Non-Hodgkin'S Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Non-Hodgkin'S Lymphoma, Solid Cancers",
+        "trial_count": 3
+      },
+      {
+        "condition": "T-Cell Non-Hodgkin'S Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Ebv Related Non-Hodgkin'S Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Follicular B-Cell Non-Hodgkin'S Lymphoma",
+        "trial_count": 3
+      },
+      {
+        "condition": "Indolent Non-Hodgkin'S Lymphomas",
+        "trial_count": 2
+      },
+      {
+        "condition": "Non-Hodgkin'S Lymphomas",
+        "trial_count": 2
+      },
+      {
+        "condition": "Follicular Non-Hodgkin'S Lymphoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "High Grade Non-Hodgkin'S Lymphoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Low Grade Non-Hodgkin'S Lymphoma, Adult",
+        "trial_count": 2
+      },
+      {
+        "condition": "Relapsed/Refractory Non-Hodgkin'S Lymphoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "High Grade Non-Hodgkin'S Lymphoma, Adult",
+        "trial_count": 2
+      },
+      {
+        "condition": "Indolent B-Cell Non-Hodgkin'S Lymphoma",
+        "trial_count": 2
+      },
+      {
+        "condition": "Non-Hodgkin'S Lymphoma, Adult High Grade",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Pancreas Cancer": {
+    "trial_count": 323,
+    "subtypes": [
+      {
+        "condition": "Pancreas Cancer, Metastatic",
+        "trial_count": 5
+      },
+      {
+        "condition": "Metastatic Pancreas Cancer",
+        "trial_count": 4
+      },
+      {
+        "condition": "Pancreas Cancer, Duct Cell Adenocarcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Family History Of Pancreas Cancer",
+        "trial_count": 2
+      },
+      {
+        "condition": "Pancreas Cancer, Stage Iii",
+        "trial_count": 2
+      },
+      {
+        "condition": "Pancreas Cancer, Stage Iv",
+        "trial_count": 2
+      },
+      {
+        "condition": "Pancreas Cancer, Recurrent",
+        "trial_count": 2
+      },
+      {
+        "condition": "Locally Advanced Pancreas Cancer",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Esophageal Squamous Cell Carcinoma": {
+    "trial_count": 318,
+    "subtypes": [
+      {
+        "condition": "Esophageal Squamous Cell Carcinoma (Escc)",
+        "trial_count": 47
+      },
+      {
+        "condition": "Locally Advanced Esophageal Squamous Cell Carcinoma",
+        "trial_count": 16
+      },
+      {
+        "condition": "Metastatic Esophageal Squamous Cell Carcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Advanced Esophageal Squamous Cell Carcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Clinical Stage Iii Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 10
+      },
+      {
+        "condition": "Stage Iii Esophageal Squamous Cell Carcinoma",
+        "trial_count": 8
+      },
+      {
+        "condition": "Clinical Stage Ii Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 8
+      },
+      {
+        "condition": "Resectable Esophageal Squamous Cell Carcinoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Clinical Stage I Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 6
+      },
+      {
+        "condition": "Oesophageal Squamous Cell Carcinoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Clinical Stage Iv Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 6
+      },
+      {
+        "condition": "Pathologic Stage Ivb Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Pathologic Stage Iva Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Clinical Stage Iva Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Pathologic Stage Iiib Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Pathologic Stage Iiia Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Pathologic Stage Iii Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 5
+      },
+      {
+        "condition": "Stage Ii Esophageal Squamous Cell Carcinoma",
+        "trial_count": 5
+      },
+      {
+        "condition": "Esophageal Squamous Cell Carcinomas",
+        "trial_count": 5
+      },
+      {
+        "condition": "Recurrent Esophageal Squamous Cell Carcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Unresectable Esophageal Squamous Cell Carcinoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Esophageal Squamous Cell Carcinoma By Ajcc V8 Stage",
+        "trial_count": 4
+      },
+      {
+        "condition": "Postneoadjuvant Therapy Stage Iii Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Postneoadjuvant Therapy Stage Iiia Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Postneoadjuvant Therapy Stage Iiib Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Pathologic Stage Iv Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Postneoadjuvant Therapy Stage Iv Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Postneoadjuvant Therapy Stage Iva Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Clinical Stage Ivb Esophageal Squamous Cell Carcinoma Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iv Esophageal Squamous Cell Carcinoma",
+        "trial_count": 4
+      }
+    ]
+  },
+  "Neoplasm Metastasis": {
+    "trial_count": 310,
+    "subtypes": [
+      {
+        "condition": "Pain; Bone Neoplasms; Neoplasm Metastasis",
+        "trial_count": 5
+      },
+      {
+        "condition": "Unknown Primary Neoplasm Metastasis",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Hodgkin Lymphoma": {
+    "trial_count": 308,
+    "subtypes": [
+      {
+        "condition": "Non-Hodgkin Lymphoma",
+        "trial_count": 229
+      },
+      {
+        "condition": "Non Hodgkin Lymphoma",
+        "trial_count": 155
+      },
+      {
+        "condition": "Recurrent Adult Hodgkin Lymphoma",
+        "trial_count": 91
+      },
+      {
+        "condition": "Recurrent Cutaneous T-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 77
+      },
+      {
+        "condition": "Refractory Non-Hodgkin Lymphoma",
+        "trial_count": 68
+      },
+      {
+        "condition": "Classical Hodgkin Lymphoma",
+        "trial_count": 58
+      },
+      {
+        "condition": "Recurrent Non-Hodgkin Lymphoma",
+        "trial_count": 51
+      },
+      {
+        "condition": "Cutaneous B-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 50
+      },
+      {
+        "condition": "Refractory B-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 44
+      },
+      {
+        "condition": "Refractory Hodgkin Lymphoma",
+        "trial_count": 43
+      },
+      {
+        "condition": "Stage Iv Adult Hodgkin Lymphoma",
+        "trial_count": 41
+      },
+      {
+        "condition": "Recurrent Hodgkin Lymphoma",
+        "trial_count": 38
+      },
+      {
+        "condition": "Recurrent B-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 38
+      },
+      {
+        "condition": "Recurrent/Refractory Childhood Hodgkin Lymphoma",
+        "trial_count": 36
+      },
+      {
+        "condition": "B-Cell Non Hodgkin Lymphoma",
+        "trial_count": 35
+      },
+      {
+        "condition": "Stage Iii Adult Hodgkin Lymphoma",
+        "trial_count": 34
+      },
+      {
+        "condition": "Stage Iv Cutaneous T-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 32
+      },
+      {
+        "condition": "B-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 29
+      },
+      {
+        "condition": "Stage Iii Cutaneous T-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 28
+      },
+      {
+        "condition": "Classic Hodgkin Lymphoma",
+        "trial_count": 24
+      },
+      {
+        "condition": "Relapsed Non-Hodgkin Lymphoma",
+        "trial_count": 24
+      },
+      {
+        "condition": "Non-Hodgkin Lymphoma,B Cell",
+        "trial_count": 22
+      },
+      {
+        "condition": "Indolent Non-Hodgkin Lymphoma",
+        "trial_count": 22
+      },
+      {
+        "condition": "Relapsed Non Hodgkin Lymphoma",
+        "trial_count": 20
+      },
+      {
+        "condition": "Hodgkin Lymphoma, Adult",
+        "trial_count": 18
+      },
+      {
+        "condition": "Aggressive Non-Hodgkin Lymphoma",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage Ii Cutaneous T-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 18
+      },
+      {
+        "condition": "Stage I Cutaneous T-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 18
+      },
+      {
+        "condition": "Mature T-Cell And Nk-Cell Non-Hodgkin Lymphoma",
+        "trial_count": 14
+      },
+      {
+        "condition": "Stage Ii Adult Hodgkin Lymphoma",
+        "trial_count": 14
+      }
+    ]
+  },
+  "Lymphoma, Non-Hodgkin": {
+    "trial_count": 306,
+    "subtypes": [
+      {
+        "condition": "Lymphoma, Non-Hodgkin'S",
+        "trial_count": 16
+      },
+      {
+        "condition": "Lymphoma, Non-Hodgkin'S, Adult",
+        "trial_count": 5
+      },
+      {
+        "condition": "Lymphoma, Non-Hodgkin (Nhl)",
+        "trial_count": 4
+      },
+      {
+        "condition": "Lymphoma, Non-Hodgkins",
+        "trial_count": 3
+      },
+      {
+        "condition": "Malignant Lymphoma, Non-Hodgkin",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Pancreatic Neoplasms": {
+    "trial_count": 300,
+    "subtypes": [
+      {
+        "condition": "Solid Pancreatic Neoplasms",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Her2-Positive Breast Cancer": {
+    "trial_count": 296,
+    "subtypes": [
+      {
+        "condition": "Advanced Her2-Positive Breast Cancer",
+        "trial_count": 3
+      }
+    ]
+  },
+  "Multiple Myeloma And Plasma Cell Neoplasm": {
+    "trial_count": 295,
+    "subtypes": []
+  },
+  "Soft Tissue Sarcoma": {
+    "trial_count": 295,
+    "subtypes": [
+      {
+        "condition": "Recurrent Adult Soft Tissue Sarcoma",
+        "trial_count": 47
+      },
+      {
+        "condition": "Stage Iv Adult Soft Tissue Sarcoma",
+        "trial_count": 37
+      },
+      {
+        "condition": "Stage Iii Adult Soft Tissue Sarcoma",
+        "trial_count": 35
+      },
+      {
+        "condition": "Soft Tissue Sarcoma Adult",
+        "trial_count": 27
+      },
+      {
+        "condition": "Soft Tissue Sarcoma (Sts)",
+        "trial_count": 21
+      },
+      {
+        "condition": "Recurrent Childhood Soft Tissue Sarcoma",
+        "trial_count": 21
+      },
+      {
+        "condition": "Soft Tissue Sarcomas",
+        "trial_count": 19
+      },
+      {
+        "condition": "Metastatic Soft Tissue Sarcoma",
+        "trial_count": 16
+      },
+      {
+        "condition": "Recurrent Soft Tissue Sarcoma",
+        "trial_count": 16
+      },
+      {
+        "condition": "Advanced Soft Tissue Sarcoma",
+        "trial_count": 16
+      },
+      {
+        "condition": "Refractory Soft Tissue Sarcoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Unresectable Soft Tissue Sarcoma",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iv Soft Tissue Sarcoma Ajcc V7",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Iii Soft Tissue Sarcoma Ajcc V7",
+        "trial_count": 9
+      },
+      {
+        "condition": "Stage Ii Adult Soft Tissue Sarcoma",
+        "trial_count": 8
+      },
+      {
+        "condition": "Soft Tissue Sarcoma Of The Trunk And Extremities",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage Iii Soft Tissue Sarcoma Of The Trunk And Extremities Ajcc V8",
+        "trial_count": 8
+      },
+      {
+        "condition": "Adult Soft Tissue Sarcoma",
+        "trial_count": 8
+      },
+      {
+        "condition": "Stage I Adult Soft Tissue Sarcoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Metastatic Childhood Soft Tissue Sarcoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Locally Advanced Soft Tissue Sarcoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Resectable Soft Tissue Sarcoma",
+        "trial_count": 7
+      },
+      {
+        "condition": "Childhood Soft Tissue Sarcoma",
+        "trial_count": 6
+      },
+      {
+        "condition": "Stage Iii Adult Soft Tissue Sarcoma Ajcc V7",
+        "trial_count": 5
+      },
+      {
+        "condition": "Soft Tissue Sarcoma (Excluding Gist)",
+        "trial_count": 4
+      },
+      {
+        "condition": "Non-Rhabdomyosarcoma Soft Tissue Sarcoma",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iiib Soft Tissue Sarcoma Of The Trunk And Extremities Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Iiia Soft Tissue Sarcoma Of The Trunk And Extremities Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Stage Ii Soft Tissue Sarcoma Of The Trunk And Extremities Ajcc V8",
+        "trial_count": 4
+      },
+      {
+        "condition": "Metastatic Adult Soft Tissue Sarcoma",
+        "trial_count": 4
+      }
+    ]
+  },
+  "Solid Tumor, Adult": {
+    "trial_count": 292,
+    "subtypes": [
+      {
+        "condition": "Advanced Solid Tumor, Adult",
+        "trial_count": 3
+      },
+      {
+        "condition": "Solid Tumor, Adult Lymphoma",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Malignant Solid Neoplasm": {
+    "trial_count": 289,
+    "subtypes": [
+      {
+        "condition": "Metastatic Malignant Solid Neoplasm",
+        "trial_count": 160
+      },
+      {
+        "condition": "Advanced Malignant Solid Neoplasm",
+        "trial_count": 151
+      },
+      {
+        "condition": "Refractory Malignant Solid Neoplasm",
+        "trial_count": 102
+      },
+      {
+        "condition": "Recurrent Malignant Solid Neoplasm",
+        "trial_count": 73
+      },
+      {
+        "condition": "Unresectable Malignant Solid Neoplasm",
+        "trial_count": 42
+      },
+      {
+        "condition": "Locally Advanced Malignant Solid Neoplasm",
+        "trial_count": 30
+      },
+      {
+        "condition": "Childhood Malignant Solid Neoplasm",
+        "trial_count": 3
+      },
+      {
+        "condition": "Recurrent Childhood Malignant Solid Neoplasm",
+        "trial_count": 2
+      },
+      {
+        "condition": "Refractory Childhood Malignant Solid Neoplasm",
+        "trial_count": 2
+      },
+      {
+        "condition": "Oligometastatic Malignant Solid Neoplasm",
+        "trial_count": 2
+      }
+    ]
+  },
+  "Breast Carcinoma": {
+    "trial_count": 289,
+    "subtypes": [
+      {
+        "condition": "Invasive Breast Carcinoma",
+        "trial_count": 102
+      },
+      {
+        "condition": "Recurrent Breast Carcinoma",
+        "trial_count": 95
+      },
+      {
+        "condition": "Triple-Negative Breast Carcinoma",
+        "trial_count": 80
+      },
+      {
+        "condition": "Metastatic Breast Carcinoma",
+        "trial_count": 77
+      },
+      {
+        "condition": "Metastatic Triple-Negative Breast Carcinoma",
+        "trial_count": 47
+      },
+      {
+        "condition": "Her2 Positive Breast Carcinoma",
+        "trial_count": 24
+      },
+      {
+        "condition": "Hormone Receptor Positive Breast Carcinoma",
+        "trial_count": 24
+      },
+      {
+        "condition": "Ductal Breast Carcinoma In Situ",
+        "trial_count": 22
+      },
+      {
+        "condition": "Early-Stage Breast Carcinoma",
+        "trial_count": 17
+      },
+      {
+        "condition": "Male Breast Carcinoma",
+        "trial_count": 17
+      },
+      {
+        "condition": "Advanced Breast Carcinoma",
+        "trial_count": 17
+      },
+      {
+        "condition": "Invasive Ductal Breast Carcinoma",
+        "trial_count": 15
+      },
+      {
+        "condition": "Her2-Negative Breast Carcinoma",
+        "trial_count": 15
+      },
+      {
+        "condition": "Locally Advanced Breast Carcinoma",
+        "trial_count": 15
+      },
+      {
+        "condition": "Early Stage Breast Carcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Lobular Breast Carcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Unresectable Breast Carcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Metastatic Her2-Negative Breast Carcinoma",
+        "trial_count": 13
+      },
+      {
+        "condition": "Lobular Breast Carcinoma In Situ",
+        "trial_count": 12
+      },
+      {
+        "condition": "Hormone Receptor-Positive Breast Carcinoma",
+        "trial_count": 12
+      },
+      {
+        "condition": "Unresectable Triple-Negative Breast Carcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Invasive Lobular Breast Carcinoma",
+        "trial_count": 11
+      },
+      {
+        "condition": "Her2-Positive Breast Carcinoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Inflammatory Breast Carcinoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Breast Carcinoma In Situ",
+        "trial_count": 10
+      },
+      {
+        "condition": "Early Stage Triple-Negative Breast Carcinoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Estrogen Receptor-Positive Breast Carcinoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Her2 Negative Breast Carcinoma",
+        "trial_count": 10
+      },
+      {
+        "condition": "Metastatic Hormone Receptor-Positive Breast Carcinoma",
+        "trial_count": 8
+      },
+      {
+        "condition": "Refractory Breast Carcinoma",
+        "trial_count": 8
+      }
+    ]
+  },
+  "Carcinoma, Hepatocellular": {
+    "trial_count": 289,
+    "subtypes": []
+  }
+}
