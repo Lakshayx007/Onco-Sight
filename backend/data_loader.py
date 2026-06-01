@@ -49,6 +49,7 @@ class DataLoader:
     def __init__(self, db_uri: str = DB_URI, data_dir: str | Path = DATA_DIR):
         self.db_uri = db_uri
         self.engine = create_engine(db_uri, pool_pre_ping=True)
+        self.base = Path(data_dir)
         self.cancer_list: list[str] = []
         self._loaded = False
         
