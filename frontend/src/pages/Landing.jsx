@@ -14,7 +14,9 @@ export default function Landing() {
   const [stats, setStats] = useState({ trials: 0, distinct: 0 });
 
   useEffect(() => {
-    // We removed the dark theme forcing to default to light mode
+    // Force dark theme for the landing page
+    document.documentElement.classList.add('dark');
+    const cleanup = () => document.documentElement.classList.remove('dark');
 
     axios.get(`${API}/hierarchy`).then(res => {
       setCancers(Object.keys(res.data || {}));
@@ -27,6 +29,8 @@ export default function Landing() {
     axios.get(`${API}/health`).then(res => {
         if(res.data) setStats({ trials: res.data.trials, distinct: res.data.cancers });
     }).catch(() => {});
+    
+    return cleanup;
   }, []);
 
   const filtered = cancers.filter(c => c.toLowerCase().includes(search.toLowerCase()));
