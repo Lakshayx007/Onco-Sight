@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--bg);
+  --color-surface: var(--surf);
+  --color-primary: var(--prim);
+  --color-accent: var(--acc);
+  --color-muted: var(--mut);
+  --color-border: var(--bord);
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+:root {
+  --bg: #F8FAFC;
+  --surf: #FFFFFF;
+  --prim: #0F172A;
+  --acc: #6366F1;
+  --mut: #64748B;
+  --bord: #E2E8F0;
+}
+
+.dark {
+  --bg: #222222;
+  --surf: #333333;
+  --prim: #eeeeee;
+  --acc: #dd6b66;
+  --mut: #759aa0;
+  --bord: #444444;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-primary antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { @apply bg-muted/20 rounded-full; }
+::-webkit-scrollbar-thumb:hover { @apply bg-muted/40; }
+
+/* Tabular numbers for KPIs */
+.tabular-nums { font-variant-numeric: tabular-nums; }
+
+/* Smooth transitions for theme toggle */
+* { transition: background-color 0.2s ease, border-color 0.2s ease, color 0.15s ease; }
+
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  /* Hide the main dashboard container and sidebar */
+  aside, .dashboard-content, .filter-bar {
+    display: none !important;
+  }
+  /* Make the report view take over */
+  .report-container {
+    display: block !important;
+    position: static !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

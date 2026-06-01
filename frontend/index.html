@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OncoPipeline Intelligence — Clinical Trial Analytics Platform</title>
+  <meta name="description" content="Phase-wise oncology clinical trial intelligence platform. Explore drug assets, sponsor landscape, biomarkers, and geography for 75+ cancer indications.">
+  <meta name="theme-color" content="#0B1628">
+
+  <!-- Design system -->
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/animations.css">
+
+  <!-- Plotly.js -->
+  <script src="https://cdn.plot.ly/plotly-2.35.0.min.js" defer></script>
+
+  <style>
+    /* Inline critical path styles */
+    #errorBanner {
+      display: none;
+      background: var(--rose-dim);
+      border-bottom: 1px solid var(--rose);
+      color: var(--rose);
+      font-size: 12px;
+      padding: 8px 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ── Error Banner ─────────────────────────────────────── -->
+<div id="errorBanner"></div>
+
+<!-- ── Loading Bar ──────────────────────────────────────── -->
+<div id="loadingBar"></div>
+
+<!-- ── Header ───────────────────────────────────────────── -->
+<header class="platform-header">
+  <div class="header-logo">
+    <span class="header-logo-name">OncoPipeline</span>
+    <span class="header-logo-tag">Intelligence</span>
+  </div>
+
+  <div class="header-separator"></div>
+
+  <div class="cancer-selector-wrap">
+    <span class="cancer-selector-label">Indication</span>
+    <select id="cancerSelect">
+      <option value="">Loading…</option>
+    </select>
+  </div>
+
+  <div class="header-right">
+    <span class="data-source-badge">Source: <span>ClinicalTrials.gov</span></span>
+    <span class="last-updated">Updated: <strong id="lastUpdated">—</strong></span>
+  </div>
+</header>
+
+<!-- ── App Wrapper ───────────────────────────────────────── -->
+<div class="app-wrapper">
+
+  <!-- Active filter chips -->
+  <div id="activeFilters" class="active-filters">
+    <span class="filter-empty-text">No active filters</span>
+  </div>
+
+  <!-- ── KPI Strip ────────────────────────────────────────── -->
+  <section class="kpi-strip">
+
+    <div class="kpi-card reveal">
+      <div class="kpi-label">Total Trials</div>
+      <div class="kpi-value" id="kpiTotal">—</div>
+      <div class="kpi-sub">all study types</div>
+      <span class="kpi-icon">⬡</span>
+    </div>
+
+    <div class="kpi-card reveal reveal-delay-1">
+      <div class="kpi-label">Interventional</div>
+      <div class="kpi-value" id="kpiInter">—</div>
+      <div class="kpi-sub">drug intervention trials</div>
+      <span class="kpi-icon">💊</span>
+    </div>
+
+    <div class="kpi-card reveal reveal-delay-2">
+      <div class="kpi-label">Distinct Assets</div>
+      <div class="kpi-value" id="kpiDrugs">—</div>
+      <div class="kpi-sub">investigational drugs</div>
+      <span class="kpi-icon">🧬</span>
+    </div>
+
+    <div class="kpi-card reveal reveal-delay-3">
+      <div class="kpi-label">Target Patients</div>
+      <div class="kpi-value" id="kpiPatients">—</div>
+      <div class="kpi-sub">enrolled enrollment</div>
+      <span class="kpi-icon">👥</span>
+    </div>
+
+    <div class="kpi-card reveal reveal-delay-4">
+      <div class="kpi-label">Countries</div>
+      <div class="kpi-value" id="kpiCountries">—</div>
+      <div class="kpi-sub">global trial sites</div>
+      <span class="kpi-icon">🌐</span>
+    </div>
+
+  </section>
+
+  <!-- ── Dashboard Grid ───────────────────────────────────── -->
+  <div class="dashboard-grid">
+
+    <!-- ── Left: Main Content ─────────────────────────────── -->
+    <div class="content-main">
+
+      <!-- Zone 1: Phase Funnel -->
+      <div class="section-card reveal">
+        <div class="section-header">
+          <div class="section-title">
+            <span class="section-title-dot"></span>
+            Drug Development Funnel
+          </div>
+          <span class="section-subtitle">Click a phase to filter</span>
+        </div>
+        <div class="section-body">
+          <div id="funnelViz" class="funnel-wrap">
+            <!-- Skeleton placeholders -->
+            <div class="skeleton" style="width:100%;height:60px;margin-bottom:6px;border-radius:6px;"></div>
+            <div class="skeleton" style="width:90%;height:60px;margin-bottom:6px;border-radius:6px;"></div>
+            <div class="skeleton" style="width:70%;height:60px;margin-bottom:6px;border-radius:6px;"></div>
+            <div class="skeleton" style="width:50%;height:60px;margin-bottom:6px;border-radius:6px;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zone 2: Drug Intelligence + Sponsor Analysis -->
+      <div class="section-card reveal">
+        <div class="section-header">
+          <div class="section-title">
+            <span class="section-title-dot" style="background:var(--blue)"></span>
+            Drug Intelligence
+          </div>
+          <div class="section-subtitle">Top 15 assets by trial count</div>
+        </div>
+
+        <!-- Phase filter pills -->
+        <div class="drug-filters">
+          <button class="drug-filter-pill active" data-phase="">All Phases</button>
+          <button class="drug-filter-pill" data-phase="Early Phase 1">Early Ph.1</button>
+          <button class="drug-filter-pill" data-phase="Phase 1">Phase 1</button>
+          <button class="drug-filter-pill" data-phase="Phase 2">Phase 2</button>
+          <button class="drug-filter-pill" data-phase="Phase 3">Phase 3</button>
+          <button class="drug-filter-pill" data-phase="Phase 4">Phase 4</button>
+        </div>
+
+        <div class="section-body no-pad">
+          <div class="drug-table-wrap">
+            <table class="drug-table">
+              <thead>
+                <tr>
+                  <th>Drug / Asset</th>
+                  <th>Trials</th>
+                  <th>Stage</th>
+                  <th>Patients</th>
+                  <th>Sponsor</th>
+                </tr>
+              </thead>
+              <tbody id="drugTableBody">
+                <!-- Populated by JS -->
+                <tr><td colspan="5"><div class="skeleton" style="height:40px;margin:8px 16px;"></div></td></tr>
+                <tr><td colspan="5"><div class="skeleton" style="height:40px;margin:8px 16px;"></div></td></tr>
+                <tr><td colspan="5"><div class="skeleton" style="height:40px;margin:8px 16px;"></div></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zone 3: Charts row -->
+      <div class="section-card reveal">
+        <div class="section-header">
+          <div class="section-title">
+            <span class="section-title-dot" style="background:var(--violet)"></span>
+            Pipeline Analytics
+          </div>
+        </div>
+
+        <div class="chart-row" style="padding: 8px 12px 16px;">
+          <div class="chart-container" id="drugChart"></div>
+          <div class="chart-container" id="sponsorChart"></div>
+        </div>
+      </div>
+
+      <!-- Zone 4: Deep Analytics Tabs -->
+      <div class="section-card reveal">
+        <div class="section-header">
+          <div class="section-title">
+            <span class="section-title-dot" style="background:var(--amber)"></span>
+            Deep Analytics
+          </div>
+        </div>
+
+        <nav class="tab-nav">
+          <button class="tab-btn active" data-tab="geo">🗺 Geography</button>
+          <button class="tab-btn" data-tab="biomarkers">🧬 Biomarkers</button>
+          <button class="tab-btn" data-tab="status">📊 Status</button>
+          <button class="tab-btn" data-tab="timeline">📈 Timeline</button>
+        </nav>
+
+        <div id="tab-geo"        class="tab-panel active"><div class="chart-container" id="geoChart"><div class="chart-placeholder skeleton" style="height:350px;border-radius:4px;"></div></div></div>
+        <div id="tab-biomarkers" class="tab-panel"><div class="chart-container" id="biomarkerChart"></div></div>
+        <div id="tab-status"     class="tab-panel"><div class="chart-container" id="statusChart"></div></div>
+        <div id="tab-timeline"   class="tab-panel"><div class="chart-container" id="timelineChart"></div></div>
+      </div>
+
+    </div>
+    <!-- / content-main -->
+
+    <!-- ── Right Sidebar ──────────────────────────────────── -->
+    <aside class="intel-sidebar">
+
+      <!-- AI Pipeline Insight -->
+      <div class="insight-panel">
+        <div class="insight-header">
+          <div class="insight-header-left">
+            <span class="insight-label">AI Insight</span>
+            <span class="ai-badge">GROQ</span>
+          </div>
+        </div>
+        <div class="insight-body" id="insightBody">
+          <div class="insight-loading">
+            <div class="insight-dot"></div>
+            <div class="insight-dot"></div>
+            <div class="insight-dot"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PubMed Articles -->
+      <div class="articles-panel">
+        <div class="articles-header">
+          <span class="articles-label">Recent Research</span>
+          <span style="font-size:10px;color:var(--text-2)">PubMed</span>
+        </div>
+        <div id="articlesList">
+          <div class="article-skeleton">
+            <div class="skeleton" style="height:14px;border-radius:3px;"></div>
+            <div class="skeleton" style="height:10px;width:60%;border-radius:3px;"></div>
+          </div>
+          <div class="article-skeleton">
+            <div class="skeleton" style="height:14px;border-radius:3px;"></div>
+            <div class="skeleton" style="height:10px;width:50%;border-radius:3px;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chatbot -->
+      <div class="chatbot-panel">
+        <div class="chatbot-header">
+          <span class="chatbot-status-dot"></span>
+          <span class="chatbot-label">Ask the Data</span>
+        </div>
+
+        <!-- Suggestion chips -->
+        <div class="chat-suggestions">
+          <button class="chat-suggestion-btn" data-q="Why is Phase 3 smaller than Phase 2?">Why is Phase 3 smaller?</button>
+          <button class="chat-suggestion-btn" data-q="What is the biggest bottleneck in this pipeline?">Biggest bottleneck?</button>
+          <button class="chat-suggestion-btn" data-q="Which drugs have the most Phase 3 trials?">Top Phase 3 drugs?</button>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+          <div class="chat-welcome">
+            Ask me anything about the <strong style="color:var(--teal)">pipeline data</strong> you're viewing.
+          </div>
+        </div>
+
+        <div class="chat-input-row">
+          <textarea id="chatInput" rows="1" placeholder="Ask a question about this pipeline…"></textarea>
+          <button id="chatSend">Send</button>
+        </div>
+      </div>
+
+      <!-- Power BI export link -->
+      <a href="#" class="pbi-card" onclick="return false;" title="Coming soon — export to Power BI">
+        <span class="pbi-icon">📊</span>
+        <div class="pbi-info">
+          <div class="pbi-title">Power BI Report</div>
+          <div class="pbi-sub">Export pre-aggregated data</div>
+        </div>
+        <span class="pbi-arrow">→</span>
+      </a>
+
+    </aside>
+    <!-- / intel-sidebar -->
+
+  </div>
+  <!-- / dashboard-grid -->
+
+</div>
+<!-- / app-wrapper -->
+
+<!-- Main JS (module) -->
+<script type="module" src="/js/app.js"></script>
+
+</body>
+</html>

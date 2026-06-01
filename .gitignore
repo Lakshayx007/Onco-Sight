@@ -1,0 +1,5 @@
+vids_ingredients/
+data/
+*.csv
+.DS_Store
+take_screenshots.js
