@@ -97,13 +97,14 @@ const globalInsightCache = {};
 export default function Dashboard() {
   const location = useLocation();
   const urlParams = new URLSearchParams(location.search);
-  const initialCancer = urlParams.get('cancer') || 'Breast Cancer';
+  const urlCancer = urlParams.get('cancer');
 
   const [cancerHierarchy, setCancerHierarchy] = useState({});
-  const [parentCancer, setParentCancer] = useState(() => localStorage.getItem('parentCancer') || initialCancer);
+  const [parentCancer, setParentCancer] = useState(() => urlCancer || localStorage.getItem('parentCancer') || 'Breast Cancer');
   const [selectedSubtypes, setSelectedSubtypes] = useState(() => {
+    if (urlCancer) return [urlCancer];
     const saved = localStorage.getItem('selectedSubtypes');
-    return saved ? JSON.parse(saved) : [initialCancer];
+    return saved ? JSON.parse(saved) : [localStorage.getItem('parentCancer') || 'Breast Cancer'];
   });
 
   useEffect(() => {
