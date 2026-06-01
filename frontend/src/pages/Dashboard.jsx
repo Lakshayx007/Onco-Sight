@@ -38,7 +38,7 @@ function Panel({ title, subtitle, children, className = '', height = 'h-[420px]'
   const insightState = chartInsights?.[title];
   const minHeightClass = height.replace('h-', 'min-h-');
   return (
-    <section className={`group relative bg-surface rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col p-5 ${minHeightClass} h-full ${className}`}>
+    <section className={`group relative bg-surface rounded-2xl border border-border shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col p-5 ${minHeightClass} h-full min-w-0 ${className}`}>
       <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-accent/[0.03] to-transparent pointer-events-none" />
       <div className="mb-3 flex items-start justify-between gap-4 relative z-10">
         <div>
@@ -54,7 +54,7 @@ function Panel({ title, subtitle, children, className = '', height = 'h-[420px]'
           )}
         </div>
       </div>
-      <div className="flex-1 min-h-[280px] relative z-10 flex flex-col">
+      <div className="flex-1 min-h-[280px] min-w-0 relative z-10 flex flex-col">
         {loading ? (
           <div className="flex-1 flex items-center justify-center">
             <div className="w-8 h-8 rounded-full border-2 border-accent border-t-transparent animate-spin"></div>
@@ -170,6 +170,13 @@ export default function Dashboard() {
   const [chartInsights, setChartInsights] = useState({});
   const [articleQuery, setArticleQuery] = useState('');
   const [articlesLoading, setArticlesLoading] = useState(false);
+
+  // Force resize on all ECharts instances after chatbot sidebar animates
+  useEffect(() => {
+    const timer1 = setTimeout(() => window.dispatchEvent(new Event('resize')), 150);
+    const timer2 = setTimeout(() => window.dispatchEvent(new Event('resize')), 350);
+    return () => { clearTimeout(timer1); clearTimeout(timer2); };
+  }, [isChatbotOpen]);
 
   const handleFetchInsight = async (chartName, data) => {
     if (!data || Object.keys(data).length === 0 || (Array.isArray(data) && data.length === 0)) return;

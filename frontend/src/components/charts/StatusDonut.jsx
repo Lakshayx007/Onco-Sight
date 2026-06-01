@@ -67,7 +67,7 @@ export default function StatusDonut({ data = [], theme = 'dark' }) {
       series: [{
         type: 'pie',
         radius: ['45%', '72%'],
-        center: ['35%', '50%'],
+        center: ['28%', '50%'],
         avoidLabelOverlap: true,
         padAngle: 2,
         label: { show: false },
@@ -92,7 +92,7 @@ export default function StatusDonut({ data = [], theme = 'dark' }) {
         // Center label showing total
         type: 'pie',
         radius: ['0%', '0%'],
-        center: ['35%', '50%'],
+        center: ['28%', '50%'],
         label: {
           show: true,
           position: 'center',
