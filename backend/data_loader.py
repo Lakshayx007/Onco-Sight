@@ -49,8 +49,12 @@ class DataLoader:
     def __init__(self, db_uri: str = DB_URI, data_dir: str | Path = DATA_DIR):
         self.db_uri = db_uri
         self.engine = create_engine(db_uri, pool_pre_ping=True)
-        self.base = Path(data_dir)
+        self.cancer_list: list[str] = []
         self._loaded = False
+        
+        # Simple memory caches to prevent redundant SQL queries
+        self._df_cache = {}
+        self._dp_cache = {}
         
         self.cancer_hierarchy = {}
         self.drug_partners = {}
@@ -104,7 +108,13 @@ class DataLoader:
             self.load()
             
         cancers = [cancer] if isinstance(cancer, str) else cancer
+        cancers_key = tuple(cancers)
+        cols_key = tuple(columns) if columns else None
+        cache_key = (cancers_key, cols_key)
         
+        if cache_key in self._df_cache:
+            return self._df_cache[cache_key].copy()
+            
         if columns:
             if "nct_id" not in columns:
                 columns.append("nct_id")
@@ -144,6 +154,11 @@ class DataLoader:
         if "first_posted_date" in df.columns:
             df["first_posted_date"] = pd.to_datetime(df["first_posted_date"], errors="coerce")
             
+        # Limit cache size to prevent OOM on free tier
+        if len(self._df_cache) > 20:
+            self._df_cache.clear()
+        self._df_cache[cache_key] = df.copy()
+            
         return df
 
     def get_cancer_drug_phase(self, cancer: str | list[str], columns: list[str] | None = None) -> pd.DataFrame:
@@ -152,7 +167,13 @@ class DataLoader:
             self.load()
             
         cancers = [cancer] if isinstance(cancer, str) else cancer
+        cancers_key = tuple(cancers)
+        cols_key = tuple(columns) if columns else None
+        cache_key = (cancers_key, cols_key)
         
+        if cache_key in self._dp_cache:
+            return self._dp_cache[cache_key].copy()
+            
         if columns:
             if "nct_id" not in columns:
                 columns.append("nct_id")
@@ -179,6 +200,8 @@ class DataLoader:
                 WHERE c.cancer_name IN %(cancers)s
                 """
                 df = pd.read_sql(query, self.engine, params={"cancers": cancer_tuple})
+        if len(self._dp_cache) > 20:
+            self._dp_cache.clear()
+        self._dp_cache[cache_key] = df.copy()
             
         return df
-
