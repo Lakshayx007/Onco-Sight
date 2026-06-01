@@ -22,7 +22,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
-
+import traceback
+from fastapi.requests import Request
 load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(levelname)s  %(name)s  %(message)s")
 logger = logging.getLogger("oncopipeline.main")
@@ -60,9 +61,18 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    logger.error(f"Global exception: {exc}")
+    return JSONResponse(
+        status_code=500,
+        content={"detail": str(exc), "traceback": traceback.format_exc()}
+    )
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
@@ -126,12 +136,16 @@ def get_all_countries():
     global _all_countries_cache
     if _all_countries_cache is None:
         c_set = set()
-        if "countries" in loader.df.columns:
-            for val in loader.df["countries"].dropna():
-                for c in str(val).split("|"):
-                    c = c.strip()
-                    if c and c.lower() != "nan":
-                        c_set.add(c)
+        try:
+            df = loader.get_cancer_df("All Oncology", columns=["countries"])
+            if "countries" in df.columns:
+                for val in df["countries"].dropna():
+                    for c in str(val).split("|"):
+                        c = c.strip()
+                        if c and c.lower() != "nan":
+                            c_set.add(c)
+        except Exception as e:
+            logger.error(f"Error fetching countries: {e}")
         _all_countries_cache = sorted(list(c_set))
     return {"countries": _all_countries_cache}
 
