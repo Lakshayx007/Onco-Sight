@@ -23,8 +23,8 @@ DATA_DIR = _HERE.parent / "Context" / "data" / "processed"
 
 PHASE_ORDER = ["Early Phase 1", "Phase 1", "Phase 2", "Phase 3", "Phase 4"]
 
-# Supabase DB URI
-DB_URI = "postgresql://postgres:fitinthebox1234@db.rxagcjdqysrsasjdgbzz.supabase.co:5432/postgres"
+# Connection string (using Session Pooler for IPv4 compatibility on Render)
+DB_URI = "postgresql://postgres.rxagcjdqysrsasjdgbzz:fitinthebox1234@aws-1-ap-northeast-2.pooler.supabase.com:5432/postgres"
 
 def parse_pipe(val: Any) -> list[str]:
     """Parse a pipe-separated string into a list of cleaned strings."""

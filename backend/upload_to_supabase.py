@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 import time
 
 # Connection string
-DB_URI = "postgresql://postgres:fitinthebox1234@db.rxagcjdqysrsasjdgbzz.supabase.co:5432/postgres"
+DB_URI = "postgresql://postgres.rxagcjdqysrsasjdgbzz:fitinthebox1234@aws-1-ap-northeast-2.pooler.supabase.com:5432/postgres"
 
 # File paths
 TRIALS_CSV = "Context/data/processed/trials_processed.csv"
